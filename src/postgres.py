@@ -1,9 +1,8 @@
-# src/bancos.py
+
 import os
-import json
+
 import pandas as pd
 import psycopg
-from pymongo import MongoClient
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -13,7 +12,7 @@ def obter_conexao_postgres():
         host=os.getenv("POSTGRES_HOST", "localhost"),
         port=os.getenv("POSTGRES_PORT", "5432"),
         dbname=os.getenv("POSTGRES_DB", "plataforma_edu"),
-        user=os.getenv("POSTGRES_USER", "yuri"),
+        user=os.getenv("POSTGRES_USER", "User"),
         password=os.getenv("POSTGRES_PASSWORD")
     )
 
@@ -87,7 +86,7 @@ def carregar_dados_postgres(diretorio_processados):
                         val_avaliacao
                     )
                 )
-        # Finaliza e consolida a transação atômica de carga
+        # Finaliza e consolida a transação da carga
         conn.commit()
         print(f"[POSTGRES] Sucesso! Carga efetuada. {len(df_cat)} conteúdos e {len(df_int)} interações salvas.")
     except Exception as e:

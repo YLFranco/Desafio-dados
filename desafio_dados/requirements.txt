@@ -1,8 +1,0 @@
-pandas
-pydantic
-psycopg[binary]
-pymongo
-python-dotenv
-pyyaml
-pgvector
-sentence-transformers

@@ -1,22 +1,20 @@
 # src/ia.py
-import os
-import psycopg
 from pgvector.psycopg import register_vector
 from sentence_transformers import SentenceTransformer
 
+
 class MotorIA:
     def __init__(self):
-        # Utilizamos um modelo leve, rápido e excelente para o português do HuggingFace
-        self.nome_modelo = 'sentence-transformers/all-MiniLM-L6-v2' # (anotar para ver se esse modelo impacta em algo)
+        self.nome_modelo = 'sentence-transformers/all-MiniLM-L6-v2'
         print(f"[IA] Carregando modelo de embeddings {self.nome_modelo}...")
         self.model = SentenceTransformer(self.nome_modelo)
         
     def gerar_embeddings_catalogo(self, conexao_func):
-        """RF08 - Gera embeddings para cada conteúdo que ainda não possui vetor armazenado"""
+        """Gera embeddings para cada conteúdo que ainda não possui vetor armazenado"""
         print("[IA] Iniciando geração de embeddings para o catálogo de conteúdos...")
         
         conn = conexao_func()
-        register_vector(conn) # Habilita o suporte a vetores no driver do psycopg
+        register_vector(conn) 
         
         try:
             with conn.cursor() as cur:
@@ -37,7 +35,7 @@ class MotorIA:
                     # Gerando o vetor numérico usando a rede neural
                     embedding = self.model.encode(texto_completo).tolist()
                     
-                    # Atualizando o registro diretamente no PostgreSQL usando pgvector
+                    
                     cur.execute(
                         "UPDATE conteudo SET embedding = %s WHERE conteudo_id = %s",
                         (embedding, conteudo_id)
@@ -52,8 +50,8 @@ class MotorIA:
             conn.close()
 
     def buscar_por_similaridade(self, conexao_func, consulta_texto, limite=3):
-        """RF09 - Realiza busca por similaridade semântica usando distância cosseno (<=>)"""
-        # Converte a frase digitada pelo usuário em linguagem natural para um vetor
+        """Realiza busca por similaridade semântica usando distância cosseno (<=>)"""
+        
         vetor_consulta = self.model.encode(consulta_texto).tolist()
         
         conn = conexao_func()

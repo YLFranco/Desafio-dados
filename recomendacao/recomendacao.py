@@ -1,11 +1,11 @@
 # src/recomendacao.py
-import os
-import psycopg
 from datetime import datetime
-from src.bancos import obter_conexao_postgres
+
+from src.postgres import obter_conexao_postgres
+
 
 def gerar_recomendacoes_usuario(usuario_id):
-    """RF10 - Calcula scores e gera recomendações baseadas no comportamento do usuário"""
+    """Calcula scores e gera recomendações baseadas no comportamento do usuário"""
     conn = obter_conexao_postgres()
     recomendacoes_geradas = []
     

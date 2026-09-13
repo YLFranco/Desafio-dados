@@ -1,12 +1,14 @@
 # src/main.py
-import yaml
 import json
-import psycopg
+
+import yaml
+
 from ingestao.ingestao import processar_pipeline
-from src.bancos import carregar_dados_postgres, obter_conexao_postgres
-from src.ia import MotorIA
+from mongodb.mongodb import carregar_dados_mongodb, obter_client_mongo, consultar_mongodb
 from recomendacao.recomendacao import gerar_recomendacoes_usuario
-from mongodb.mongodb import carregar_dados_mongodb
+from src.postgres import carregar_dados_postgres, obter_conexao_postgres
+from src.busca import MotorIA
+
 
 def carregar_configuracao():
     with open('config.yaml', 'r') as f:
@@ -29,17 +31,22 @@ def aplicar_views_analiticas():
         conn.close()
 
 def main():
-    print("[INFO] ====================================================")
-    print("[INFO] Iniciando Pipeline Completo de DataOps + IA...")
-    print("[INFO] ====================================================")
+    print(" ====================================================")
+    print("[INFO] Iniciando Pipeline")
+    print("====================================================")
     
     config = carregar_configuracao()
     dir_proc = config['arquivos']['diretorio_processados']
     
-    # 1. Ingestão
+    
     resumo = processar_pipeline(config)
     
-    # 2. Carga nos Bancos
+    
+    print("\n=================== RESUMO DA INGESTÃO ===================")
+    print(json.dumps(resumo, indent=4, ensure_ascii=False))
+    print("==========================================================\n")
+    
+   
     try:
         carregar_dados_postgres(dir_proc)
         carregar_dados_mongodb(dir_proc)
@@ -47,34 +54,31 @@ def main():
         print(f"[ERRO CRÍTICO] Falha na persistência: {e}")
         return
 
-    # 3. Geração de Embeddings
+    consultar_mongodb()
+    
     try:
         motor_ia = MotorIA()
         motor_ia.gerar_embeddings_catalogo(obter_conexao_postgres)
         
         frase_teste = "Quero aprender os fundamentos de banco de dados para inteligência artificial."
         resultados_busca = motor_ia.buscar_por_similaridade(obter_conexao_postgres, frase_teste, limite=1)
-        print(f"\n[OK] Busca Semântica testada para: '{frase_teste}'")
+        print(f"\n[INFO] Busca Semântica testada para: '{frase_teste}'")
         print(json.dumps(resultados_busca, indent=4, ensure_ascii=False))
     except Exception as e:
         print(f"[ERRO] Falha na etapa de IA: {e}")
-
-        
-        
     
-    # 4. Geração de Recomendações
     try:
         id_usuario_teste = 53
         recs =gerar_recomendacoes_usuario(id_usuario_teste)
         print(f"\nTop conteúdos recomendados para o Usuário {id_usuario_teste}:")
         print(json.dumps(recs, indent=4, ensure_ascii=False))
-        print("\n[OK] Recomendações salvas com sucesso no PostgreSQL!")
+        print("\n[INFO] Recomendações salvas com sucesso no PostgreSQL!")
     except Exception as e:
         print(f"[ERRO] Falha ao gerar recomendações: {e}")
 
-    # 5. Criação Analítica das tabelas do Apache Superset (RF12)
+    
     aplicar_views_analiticas()
-    print("\n[SUCESSO] Todo o ecossistema backend está pronto e operacional!")
+    print("\n Todo o ecossistema backend está pronto e operacional!")
 
 if __name__ == '__main__':
     main()

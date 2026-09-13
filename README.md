@@ -19,7 +19,7 @@ Este repositório contém a solução completa para o Desafio Prático 1. O proj
    psql -U postgres -d plataforma_edu -f sql/consultas.sql
    ```
 
-4. **Execute o pipeline integrado (Requisito RF01):**
+4. **Execute o pipeline integrado:**
    ```bash
    python -m src.main
    ```
