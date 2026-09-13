@@ -1,0 +1,6 @@
+# config.yaml
+arquivos:
+  catalogo_csv: "dados/brutos/catalogo.csv"
+  interacoes_json: "dados/brutos/interacoes.json"
+  comentarios_json: "dados/brutos/comentarios.json"
+  diretorio_processados: "dados/processados/"

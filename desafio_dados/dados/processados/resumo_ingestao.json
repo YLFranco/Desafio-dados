@@ -1,0 +1,26 @@
+{
+  "status": "sucesso",
+  "quantidade_registros_lidos": 3000,
+  "detalhe_fontes": {
+    "catalogo_csv": {
+      "lidos": 1000,
+      "validos": 1000,
+      "duplicados": 0,
+      "invalidos": 0
+    },
+    "interacoes_json": {
+      "lidos": 1000,
+      "validos": 895,
+      "duplicados": 0,
+      "invalidos": 105
+    },
+    "comentarios_json": {
+      "lidos": 1000,
+      "validos": 1000,
+      "duplicados": 0,
+      "invalidos": 0
+    }
+  },
+  "tempo_total_processamento_segundos": 0.23148,
+  "data_execucao": "2026-09-12 21:24:03"
+}
