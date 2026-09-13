@@ -1,8 +1,10 @@
 # src/ingestao.py
-import pandas as pd
 import json
 import os
 from datetime import datetime
+
+import pandas as pd
+
 
 def processar_pipeline(config):
     inicio_proc = datetime.now()
@@ -132,9 +134,8 @@ def processar_pipeline(config):
 
     df_com_validos = df_com[df_com['status_validacao'] == STATUS_VALIDO].copy()
 
-    # -------------------------------------------------------------------------
+
     # EXPEDIÇÃO DE ARQUIVOS SANITIZADOS E RELATÓRIO OPERACIONAL
-    # -------------------------------------------------------------------------
     dir_proc = config['arquivos']['diretorio_processados']
     os.makedirs(dir_proc, exist_ok=True)
     

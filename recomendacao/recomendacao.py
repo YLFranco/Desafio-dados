@@ -71,11 +71,11 @@ def gerar_recomendacoes_usuario(usuario_id):
             # Ordenar pelo maior score
             recomendacoes_geradas = sorted(recomendacoes_geradas, key=lambda x: x['score'], reverse=True)
 
-            # RF11 — Persistência das Recomendações no PostgreSQL
+            # Persistência das Recomendações no PostgreSQL
             # Limpar recomendações anteriores do usuário para não duplicar
             cur.execute("DELETE FROM recomendacao WHERE usuario_id = %s", (usuario_id,))
             
-            # Salvar o Top 5 recomendações
+            # Salva o Top 5 recomendações
             for posicao, rec in enumerate(recomendacoes_geradas[:5], start=1):
                 cur.execute("""
                     INSERT INTO recomendacao (usuario_id, conteudo_id, pontuation_final, posicao_resultado, data_hora_geracao)

@@ -1,4 +1,3 @@
--- sql/criar_banco.sql
 
 psql -U yuri -d postgres -c "CREATE DATABASE plataforma_edu;"
 

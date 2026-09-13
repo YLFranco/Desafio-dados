@@ -1,7 +1,5 @@
 # Registro de Uso de Inteligência Artificial (AI)
 
-Em conformidade com as diretrizes do item 10 do Desafio Prático, este relatório documenta o uso de ferramentas de IA generativa no apoio ao desenvolvimento do pipeline.
-
 ## 1. Ferramentas Utilizadas
 * **Modelo:** Google Gemini / Assistente de IA Generativa.
 

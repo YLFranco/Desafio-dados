@@ -1,6 +1,7 @@
 # Pipeline de Recomendação e Dashboard — Fundamentos de Dados para IA
 
-Este repositório contém a solução completa para o Desafio Prático 1. O projeto consiste em um pipeline reproduzível que abrange a ingestão de dados, armazenamento híbrido (Relacional/NoSQL), geração de embeddings semânticos e motor de recomendação.
+ O projeto consiste em um pipeline reproduzível que abrange a ingestão de dados, armazenamento híbrido (Relacional/NoSQL), geração de embeddings semânticos e motor de recomendação.
+Membros da equipe: André Luiz Carvalho Nunes, Leandro José Conceição Souza, Yuri Lino Franco
 
 ##  Como Executar o Projeto
 

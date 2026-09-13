@@ -12,7 +12,7 @@ def obter_conexao_postgres():
         host=os.getenv("POSTGRES_HOST", "localhost"),
         port=os.getenv("POSTGRES_PORT", "5432"),
         dbname=os.getenv("POSTGRES_DB", "plataforma_edu"),
-        user=os.getenv("POSTGRES_USER", "User"),
+        user=os.getenv("POSTGRES_USER", "yuri"),
         password=os.getenv("POSTGRES_PASSWORD")
     )
 
