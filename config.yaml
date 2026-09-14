@@ -1,4 +1,4 @@
-# config.yaml
+
 arquivos:
   catalogo_csv: "dados/brutos/catalogo.csv"
   interacoes_json: "dados/brutos/interacoes.json"

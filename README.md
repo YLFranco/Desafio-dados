@@ -1,29 +1,51 @@
 # Pipeline de Recomendação e Dashboard — Fundamentos de Dados para IA
 
- O projeto consiste em um pipeline reproduzível que abrange a ingestão de dados, armazenamento híbrido (Relacional/NoSQL), geração de embeddings semânticos e motor de recomendação.
-Membros da equipe: André Luiz Carvalho Nunes, Leandro José Conceição Souza, Yuri Lino Franco
+Este projeto consiste em um pipeline reproduzível de engenharia de dados que abrange desde a ingestão até a entrega final de inteligência. A solução engloba o tratamento de arquivos brutos, armazenamento híbrido (Relacional/NoSQL), geração de embeddings semânticos para o motor de recomendação e disponibilização de views analíticas para dashboards.
+
+---
+
+##  Membros da Equipe
+* **André Luiz Carvalho Nunes**
+* **Leandro José Conceição Souza**
+* **Yuri Lino Franco**
+
+---
 
 ##  Como Executar o Projeto
 
-1. **Instale as dependências:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+Siga os passos abaixo sequencialmente para configurar o ambiente e rodar toda a aplicação:
 
-2. **Configure suas credenciais locais:**
-   Crie e preencha as variáveis de acesso aos servidores locais no arquivo `.env` na raiz.
+### 1. Instalar as Dependências
+Certifique-se de estar com seu ambiente virtual ativo e instale as bibliotecas necessárias:
+```bash
+pip install -r requirements.txt
+```
 
-3. **Crie a estrutura de tabelas e views no PostgreSQL:**
-   ```bash
-   psql -U postgres -d postgres -c "CREATE DATABASE plataforma_edu;"
-   psql -U postgres -d plataforma_edu -f sql/criar_banco.sql
-   psql -U postgres -d plataforma_edu -f sql/consultas.sql
-   ```
+### 2. Configurar as Variáveis de Ambiente
+Crie um arquivo chamado `.env` na raiz do seu projeto e preencha com as credenciais de acesso aos seus servidores locais:
+```text
+DB_HOST=localhost
+DB_PORT=5432
+DB_USER=seu_usuario
+DB_PASSWORD=sua_senha_aqui
+DB_NAME=plataforma_edu
+```
 
-4. **Execute o pipeline integrado:**
-   ```bash
-   python -m src.main
-   ```
+### 3. Criar a Estrutura do Banco de Dados (PostgreSQL)
+Execute os comandos abaixo no seu terminal para criar o banco de dados, habilitar as extensões necessárias (como `pgvector`), estruturar as tabelas e gerar as views analíticas:
+```bash
+psql -U postgres -d postgres -c "CREATE DATABASE plataforma_edu;"
+psql -U postgres -d plataforma_edu -f sql/criar_banco.sql
+psql -U postgres -d plataforma_edu -f sql/consultas.sql
+```
 
-5. **Acesse as métricas:**
-   Conecte o Apache Superset ao banco `plataforma_edu` e explore as views analíticas configuradas.
+### 4. Executar o Pipeline Integrado
+Rode o script principal para iniciar a extração, tratamento, carga dos dados e cálculo das recomendações via IA:
+```bash
+python -m src.main
+```
+
+### 5. Acessar as Métricas e Dashboards
+1. Abra a interface do **Apache Superset**.
+2. Conecte uma nova fonte de dados apontando para o banco `plataforma_edu`.
+3. Explore e visualize os dados a partir das views analíticas geradas na etapa 3.
