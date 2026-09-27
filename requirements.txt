@@ -6,3 +6,6 @@ python-dotenv
 pyyaml
 pgvector
 sentence-transformers
+apache-beam[gcp]
+pyarrow
+fastparquet
