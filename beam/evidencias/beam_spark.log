@@ -1,0 +1,16 @@
+2026/09/29 11:17:15 - HopRun - Start of Hop Run
+2026/09/29 11:17:15 - HopRun - Enabling project 'desafio_dados_2'
+2026/09/29 11:17:15 - HopRun - Clearing the database cache when switching between projects or environments.
+2026/09/29 11:17:15 - HopRun - Two-way password encoder initialized with plugin ID 'Hop' for project 'desafio_dados_2'
+2026/09/29 11:17:15 - HopRun - Marketplace environment check skipped (onEnable=off) for environment ''
+2026/09/29 11:17:15 - HopRun - System resource check skipped (onEnable=off) for environment ''
+2026/09/29 11:17:15 - HopRun - Starting pipeline: /home/andre/Projetos/Desafio-dados/hop/pipelines/beam_agregacao_catalogo_2024.hpl
+2026/09/29 11:17:23 - General - Created Apache Beam pipeline with name 'beam-agregacao-catalogo-2024'
+2026/09/29 11:17:23 - General - Handled generic transform (TRANSFORM) : Arquivo Parquet Silver 2024, gets data from 0 previous transform(s), targets=0, infos=0
+2026/09/29 11:17:23 - General - Handled generic transform (TRANSFORM) : Somente filename, gets data from 1 previous transform(s), targets=0, infos=0
+2026/09/29 11:17:23 - General - Handled generic transform (TRANSFORM) : Ler Parquet Silver 2024, gets data from 1 previous transform(s), targets=0, infos=0
+2026/09/29 11:17:24 - General - Handled Group By (TRANSFORM) : Agregacao por categoria, gets data from 1 previous transform(s)
+2026/09/29 11:17:24 - General - Handled generic transform (TRANSFORM) : Gravar Parquet agregado, gets data from 1 previous transform(s), targets=0, infos=0
+2026/09/29 11:17:24 - General - Executing this pipeline using the Beam Pipeline Engine with run configuration 'Beam Spark'
+2026/09/29 11:17:27 - General - Beam pipeline execution has finished.
+HopRun exit.
