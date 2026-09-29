@@ -1,0 +1,34 @@
+{
+  "engineRunConfiguration": {
+    "BeamSparkPipelineEngine": {
+      "sparkMinReadTimeMillis": "",
+      "sparkMaster": "local[4]",
+      "sparkEnableSparkMetricSinks": false,
+      "streamingHopTransformsBufferSize": "",
+      "sparkCheckpointDir": "/tmp",
+      "sparkMaxRecordsPerBatch": "",
+      "userAgent": "Hop",
+      "sparkBatchIntervalMillis": "500",
+      "pluginsToStage": "",
+      "tempLocation": "/tmp",
+      "sparkCheckpointDurationMillis": "",
+      "fatJar": "",
+      "sparkBundleSize": "50000",
+      "sparkReadTimePercentage": "",
+      "streamingHopTransformsFlushInterval": "",
+      "transformPluginClasses": "",
+      "xpPluginClasses": ""
+    }
+  },
+  "configurationVariables": [
+    {
+      "name": "BEAM_OUTPUT",
+      "description": "Saida Beam Spark",
+      "value": "${PROJECT_HOME}/dados/gold/beam/spark"
+    }
+  ],
+  "name": "Beam Spark",
+  "description": "Desafio 2 - Apache Beam Spark local",
+  "executionInfoLocationName": "",
+  "dataProfile": ""
+}

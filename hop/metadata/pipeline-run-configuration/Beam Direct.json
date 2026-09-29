@@ -1,0 +1,26 @@
+{
+  "engineRunConfiguration": {
+    "BeamDirectPipelineEngine": {
+      "tempLocation": "file:///tmp",
+      "streamingHopTransformsBufferSize": "",
+      "number_of_workers": "4",
+      "fatJar": "",
+      "userAgent": "Hop",
+      "streamingHopTransformsFlushInterval": "",
+      "transformPluginClasses": "",
+      "pluginsToStage": "",
+      "xpPluginClasses": ""
+    }
+  },
+  "configurationVariables": [
+    {
+      "name": "BEAM_OUTPUT",
+      "description": "Saida Beam Direct",
+      "value": "${PROJECT_HOME}/dados/gold/beam/direct"
+    }
+  ],
+  "name": "Beam Direct",
+  "description": "Desafio 2 - Apache Beam DirectRunner",
+  "executionInfoLocationName": "",
+  "dataProfile": ""
+}
