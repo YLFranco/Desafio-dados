@@ -1,0 +1,513 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<workflow>
+  <name>orquestracao_principal</name>
+  <name_sync_with_filename>Y</name_sync_with_filename>
+  <description>Orquestra Bronze, Silver, qualidade e Gold do Desafio 2</description>
+  <extended_description />
+  <workflow_version />
+  <created_user>-</created_user>
+  <created_date>2026/09/29 09:00:00.000</created_date>
+  <modified_user>-</modified_user>
+  <modified_date>2026/09/29 09:00:00.000</modified_date>
+  <parameters>
+    <parameter>
+      <name>EXECUCAO_ID</name>
+      <description>Identificador da execucao</description>
+      <default_value>20260928_01</default_value>
+    </parameter>
+  </parameters>
+  <actions>
+    <action>
+      <name>Start</name>
+      <description />
+      <type>SPECIAL</type>
+      <attributes />
+      <repeat>N</repeat>
+      <schedulerType>0</schedulerType>
+      <intervalSeconds>0</intervalSeconds>
+      <intervalMinutes>60</intervalMinutes>
+      <hour>12</hour>
+      <minutes>0</minutes>
+      <weekDay>1</weekDay>
+      <DayOfMonth>1</DayOfMonth>
+      <parallel>N</parallel>
+      <xloc>64</xloc>
+      <yloc>64</yloc>
+      <attributes_hac />
+    </action>
+    <action>
+      <name>Bronze catalogo</name>
+      <description />
+      <type>PIPELINE</type>
+      <attributes />
+      <filename>${PROJECT_HOME}/hop/pipelines/bronze_catalogo_csv.hpl</filename>
+      <params_from_previous>N</params_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile />
+      <logext />
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Basic</loglevel>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <create_parent_folder>N</create_parent_folder>
+      <run_configuration>local</run_configuration>
+      <parameters>
+        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>
+      <parallel>N</parallel>
+      <xloc>240</xloc>
+      <yloc>64</yloc>
+      <attributes_hac />
+    </action>
+    <action>
+      <name>Bronze interacoes</name>
+      <description />
+      <type>PIPELINE</type>
+      <attributes />
+      <filename>${PROJECT_HOME}/hop/pipelines/bronze_interacoes_json.hpl</filename>
+      <params_from_previous>N</params_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile />
+      <logext />
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Basic</loglevel>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <create_parent_folder>N</create_parent_folder>
+      <run_configuration>local</run_configuration>
+      <parameters>
+        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>
+      <parallel>N</parallel>
+      <xloc>432</xloc>
+      <yloc>64</yloc>
+      <attributes_hac />
+    </action>
+    <action>
+      <name>Silver catalogo</name>
+      <description />
+      <type>PIPELINE</type>
+      <attributes />
+      <filename>${PROJECT_HOME}/hop/pipelines/silver_catalogo.hpl</filename>
+      <params_from_previous>N</params_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile />
+      <logext />
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Basic</loglevel>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <create_parent_folder>N</create_parent_folder>
+      <run_configuration>local</run_configuration>
+      <parameters>
+        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>
+      <parallel>N</parallel>
+      <xloc>624</xloc>
+      <yloc>64</yloc>
+      <attributes_hac />
+    </action>
+    <action>
+      <name>Silver interacoes</name>
+      <description />
+      <type>PIPELINE</type>
+      <attributes />
+      <filename>${PROJECT_HOME}/hop/pipelines/silver_interacoes.hpl</filename>
+      <params_from_previous>N</params_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile />
+      <logext />
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Basic</loglevel>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <create_parent_folder>N</create_parent_folder>
+      <run_configuration>local</run_configuration>
+      <parameters>
+        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>
+      <parallel>N</parallel>
+      <xloc>816</xloc>
+      <yloc>64</yloc>
+      <attributes_hac />
+    </action>
+    <action>
+      <name>Executar qualidade</name>
+      <description />
+      <type>SQL</type>
+      <attributes />
+      <sql>CREATE SCHEMA IF NOT EXISTS qualidade;
+
+CREATE TABLE IF NOT EXISTS qualidade.resultado_execucao (
+    id BIGSERIAL PRIMARY KEY,
+    execucao_id TEXT NOT NULL,
+    fonte TEXT NOT NULL,
+    teste TEXT NOT NULL,
+    dimensao TEXT NOT NULL,
+    severidade TEXT NOT NULL,
+    resultado TEXT NOT NULL,
+    valor_observado NUMERIC,
+    limite_esperado TEXT,
+    data_hora TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+DELETE FROM qualidade.resultado_execucao
+WHERE execucao_id = '${EXECUCAO_ID}';
+
+INSERT INTO qualidade.resultado_execucao
+(execucao_id, fonte, teste, dimensao, severidade, resultado, valor_observado, limite_esperado)
+SELECT
+    '${EXECUCAO_ID}',
+    'silver.catalogo',
+    'Campos obrigatorios nulos',
+    'completude',
+    'CRITICA',
+    CASE WHEN COUNT(*) = 0 THEN 'SUCESSO' ELSE 'FALHA' END,
+    COUNT(*),
+    '= 0'
+FROM silver.catalogo
+WHERE conteudo_id IS NULL
+   OR titulo IS NULL
+   OR tipo IS NULL
+   OR categoria IS NULL
+   OR nivel IS NULL
+   OR carga_horaria_min IS NULL
+   OR data_publicacao IS NULL;
+
+INSERT INTO qualidade.resultado_execucao
+(execucao_id, fonte, teste, dimensao, severidade, resultado, valor_observado, limite_esperado)
+SELECT
+    '${EXECUCAO_ID}',
+    'silver.catalogo',
+    'Duplicidade de conteudo_id',
+    'unicidade',
+    'CRITICA',
+    CASE WHEN COUNT(*) = 0 THEN 'SUCESSO' ELSE 'FALHA' END,
+    COUNT(*),
+    '= 0'
+FROM (
+    SELECT conteudo_id
+    FROM silver.catalogo
+    GROUP BY conteudo_id
+    HAVING COUNT(*) &gt; 1
+) d;
+
+INSERT INTO qualidade.resultado_execucao
+(execucao_id, fonte, teste, dimensao, severidade, resultado, valor_observado, limite_esperado)
+SELECT
+    '${EXECUCAO_ID}',
+    'silver.interacoes',
+    'Percentual de conclusao fora do intervalo',
+    'validade',
+    'CRITICA',
+    CASE WHEN COUNT(*) = 0 THEN 'SUCESSO' ELSE 'FALHA' END,
+    COUNT(*),
+    '0 a 100'
+FROM silver.interacoes
+WHERE percentual_conclusao &lt; 0
+   OR percentual_conclusao &gt; 100;
+
+INSERT INTO qualidade.resultado_execucao
+(execucao_id, fonte, teste, dimensao, severidade, resultado, valor_observado, limite_esperado)
+SELECT
+    '${EXECUCAO_ID}',
+    'silver.interacoes',
+    'Referencias de usuario ou conteudo inexistentes',
+    'integridade_referencial',
+    'CRITICA',
+    CASE WHEN COUNT(*) = 0 THEN 'SUCESSO' ELSE 'FALHA' END,
+    COUNT(*),
+    '= 0'
+FROM silver.interacoes i
+LEFT JOIN public.usuario u
+       ON u.usuario_id = i.usuario_id
+LEFT JOIN public.conteudo c
+       ON c.conteudo_id = i.conteudo_id
+WHERE u.usuario_id IS NULL
+   OR c.conteudo_id IS NULL;
+
+INSERT INTO qualidade.resultado_execucao
+(execucao_id, fonte, teste, dimensao, severidade, resultado, valor_observado, limite_esperado)
+SELECT
+    '${EXECUCAO_ID}',
+    'silver.interacoes',
+    'Auditoria inconsistente com a execucao',
+    'consistencia',
+    'CRITICA',
+    CASE WHEN COUNT(*) = 0 THEN 'SUCESSO' ELSE 'FALHA' END,
+    COUNT(*),
+    'origem=interacoes.json e execucao_id atual'
+FROM silver.interacoes
+WHERE origem &lt;&gt; 'interacoes.json'
+   OR execucao_id &lt;&gt; '${EXECUCAO_ID}';
+</sql>
+      <useVariableSubstitution>T</useVariableSubstitution>
+      <sqlfromfile>F</sqlfromfile>
+      <sqlfilename />
+      <sendOneStatement>F</sendOneStatement>
+      <connection>pg_plataforma_edu</connection>
+      <parallel>N</parallel>
+      <xloc>1008</xloc>
+      <yloc>64</yloc>
+      <attributes_hac />
+    </action>
+    <action>
+      <name>Validar qualidade critica</name>
+      <description />
+      <type>EVAL_TABLE_CONTENT</type>
+      <attributes />
+      <connection>pg_plataforma_edu</connection>
+      <schemaname />
+      <tablename />
+      <success_condition>rows_count_equal</success_condition>
+      <limit>0</limit>
+      <is_custom_sql>Y</is_custom_sql>
+      <is_usevars>Y</is_usevars>
+      <custom_sql>SELECT id FROM qualidade.resultado_execucao WHERE execucao_id='${EXECUCAO_ID}' AND severidade='CRITICA' AND resultado='FALHA'</custom_sql>
+      <add_rows_result>N</add_rows_result>
+      <clear_result_rows>Y</clear_result_rows>
+      <parallel>N</parallel>
+      <xloc>1200</xloc>
+      <yloc>64</yloc>
+      <attributes_hac />
+    </action>
+    <action>
+      <name>Criar Gold</name>
+      <description />
+      <type>SQL</type>
+      <attributes />
+      <sql>CREATE SCHEMA IF NOT EXISTS gold;
+
+CREATE OR REPLACE VIEW gold.vw_engajamento_conteudo AS
+SELECT
+    c.conteudo_id,
+    c.titulo,
+    c.tipo,
+    c.categoria,
+    c.nivel,
+    c.carga_horaria_min,
+    COUNT(i.conteudo_id) AS total_interacoes,
+    COUNT(DISTINCT i.usuario_id) AS usuarios_ativos,
+    ROUND(AVG(i.percentual_conclusao)::numeric, 2) AS media_percentual_conclusao,
+    COUNT(*) FILTER (WHERE i.tipo_interacao = 'conclusão') AS total_conclusoes,
+    COUNT(*) FILTER (WHERE i.tipo_interacao = 'curtida') AS total_curtidas,
+    ROUND(
+        AVG(i.avaliacao_atribuida)
+        FILTER (WHERE i.avaliacao_atribuida IS NOT NULL)::numeric,
+        2
+    ) AS avaliacao_media
+FROM silver.catalogo c
+LEFT JOIN silver.interacoes i
+       ON i.conteudo_id = c.conteudo_id
+GROUP BY
+    c.conteudo_id,
+    c.titulo,
+    c.tipo,
+    c.categoria,
+    c.nivel,
+    c.carga_horaria_min;
+
+CREATE OR REPLACE VIEW gold.vw_engajamento_categoria AS
+SELECT
+    categoria,
+    COUNT(*) AS total_conteudos,
+    SUM(total_interacoes) AS total_interacoes,
+    SUM(usuarios_ativos) AS soma_usuarios_por_conteudo,
+    ROUND(AVG(media_percentual_conclusao)::numeric, 2) AS media_percentual_conclusao,
+    SUM(total_conclusoes) AS total_conclusoes,
+    SUM(total_curtidas) AS total_curtidas,
+    ROUND(AVG(avaliacao_media)::numeric, 2) AS avaliacao_media
+FROM gold.vw_engajamento_conteudo
+GROUP BY categoria;
+
+CREATE OR REPLACE VIEW gold.vw_kpis_gerais AS
+SELECT
+    (SELECT COUNT(*) FROM silver.catalogo) AS total_conteudos,
+    (SELECT COUNT(*) FROM silver.interacoes) AS total_interacoes,
+    (SELECT COUNT(DISTINCT usuario_id) FROM silver.interacoes) AS usuarios_ativos,
+    (
+        SELECT ROUND(AVG(percentual_conclusao)::numeric, 2)
+        FROM silver.interacoes
+    ) AS media_percentual_conclusao,
+    (
+        SELECT ROUND(
+            100.0 * COUNT(*) FILTER (WHERE tipo_interacao = 'conclusão')
+            / NULLIF(COUNT(*), 0),
+            2
+        )
+        FROM silver.interacoes
+    ) AS taxa_conclusao_interacoes;
+
+CREATE OR REPLACE VIEW gold.vw_recomendacoes_conversao AS
+SELECT
+    r.recomendacao_id,
+    r.usuario_id,
+    r.conteudo_id,
+    c.titulo,
+    c.categoria,
+    r.pontuation_final,
+    r.posicao_resultado,
+    r.data_hora_geracao,
+    CASE
+        WHEN EXISTS (
+            SELECT 1
+            FROM silver.interacoes i
+            WHERE i.usuario_id = r.usuario_id
+              AND i.conteudo_id = r.conteudo_id
+              AND i.data_hora &gt;= r.data_hora_geracao
+        ) THEN 1
+        ELSE 0
+    END AS convertida
+FROM public.recomendacao r
+LEFT JOIN silver.catalogo c
+       ON c.conteudo_id = r.conteudo_id;
+
+CREATE OR REPLACE VIEW gold.vw_kpi_recomendacao AS
+SELECT
+    COUNT(*) AS total_recomendacoes,
+    SUM(convertida) AS recomendacoes_convertidas,
+    ROUND(
+        100.0 * SUM(convertida) / NULLIF(COUNT(*), 0),
+        2
+    ) AS taxa_conversao_recomendacao
+FROM gold.vw_recomendacoes_conversao;
+</sql>
+      <useVariableSubstitution>F</useVariableSubstitution>
+      <sqlfromfile>F</sqlfromfile>
+      <sqlfilename />
+      <sendOneStatement>F</sendOneStatement>
+      <connection>pg_plataforma_edu</connection>
+      <parallel>N</parallel>
+      <xloc>1392</xloc>
+      <yloc>64</yloc>
+      <attributes_hac />
+    </action>
+    <action>
+      <name>Falha critica</name>
+      <description />
+      <type>ABORT</type>
+      <attributes />
+      <message>Falha critica no processamento. Dependencias seguintes nao serao executadas.</message>
+      <parallel>N</parallel>
+      <xloc>1008</xloc>
+      <yloc>240</yloc>
+      <attributes_hac />
+    </action>
+  </actions>
+  <hops>
+    <hop>
+      <from>Start</from>
+      <to>Bronze catalogo</to>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>Y</unconditional>
+    </hop>
+    <hop>
+      <from>Bronze catalogo</from>
+      <to>Bronze interacoes</to>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Bronze interacoes</from>
+      <to>Silver catalogo</to>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Silver catalogo</from>
+      <to>Silver interacoes</to>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Silver interacoes</from>
+      <to>Executar qualidade</to>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Executar qualidade</from>
+      <to>Validar qualidade critica</to>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Validar qualidade critica</from>
+      <to>Criar Gold</to>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Bronze catalogo</from>
+      <to>Falha critica</to>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Bronze interacoes</from>
+      <to>Falha critica</to>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Silver catalogo</from>
+      <to>Falha critica</to>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Silver interacoes</from>
+      <to>Falha critica</to>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Executar qualidade</from>
+      <to>Falha critica</to>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Validar qualidade critica</from>
+      <to>Falha critica</to>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Criar Gold</from>
+      <to>Falha critica</to>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+  </hops>
+</workflow>

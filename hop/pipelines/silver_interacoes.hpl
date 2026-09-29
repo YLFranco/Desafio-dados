@@ -1,0 +1,1370 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pipeline>
+  <info>
+    <pipeline_version />
+    <capture_transform_performance>N</capture_transform_performance>
+    <transform_performance_capturing_delay>1000</transform_performance_capturing_delay>
+    <transform_performance_capturing_size_limit>100</transform_performance_capturing_size_limit>
+    <pipeline_type>Normal</pipeline_type>
+    <pipeline_status>0</pipeline_status>
+    <parameters>
+      <parameter>
+        <name>EXECUCAO_ID</name>
+        <description>Execucao Bronze a ser processada</description>
+        <default_value>20260928_01</default_value>
+      </parameter>
+    </parameters>
+    <name>silver_interacoes</name>
+    <name_sync_with_filename>Y</name_sync_with_filename>
+    <description />
+    <extended_description />
+    <created_user>-</created_user>
+    <modified_user>-</modified_user>
+    <created_date>2026/09/28 22:43:01.315</created_date>
+    <modified_date>2026/09/28 22:43:01.315</modified_date>
+  </info>
+  <transform>
+    <type>TableInput</type>
+    <name>Ler Bronze interacoes</name>
+    <sql>SELECT
+
+    b.usuario_id,
+
+    b.conteudo_id,
+
+    b.tipo_interacao,
+
+    b.data_hora,
+
+    b.tempo_consumido,
+
+    b.percentual_conclusao,
+
+    b.avaliacao_atribuida,
+
+    b.origem,
+
+    b.execucao_id,
+
+    b.data_hora_ingestao,
+
+
+
+    CASE
+
+        WHEN u.usuario_id IS NULL THEN 0
+
+        ELSE 1
+
+    END AS usuario_referencia_valida,
+
+
+
+    CASE
+
+        WHEN c.conteudo_id IS NULL THEN 0
+
+        ELSE 1
+
+    END AS conteudo_referencia_valida
+
+
+
+FROM bronze.interacoes_raw b
+
+
+
+LEFT JOIN public.usuario u
+
+    ON u.usuario_id::text = b.usuario_id
+
+
+
+LEFT JOIN public.conteudo c
+
+    ON c.conteudo_id::text = b.conteudo_id
+
+
+
+WHERE b.execucao_id = '${EXECUCAO_ID}'</sql>
+    <limit>0</limit>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>Y</variables_active>
+    <connection>pg_plataforma_edu</connection>
+    <lookup />
+    <sql_from_file />
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>176</xloc>
+      <yloc>144</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+  </transform>
+  <transform>
+    <type>StringOperations</type>
+    <name>Padronizar strings</name>
+    <fields>
+      <field>
+        <in_stream_name>tipo_interacao</in_stream_name>
+        <out_stream_name />
+        <trim_type>both</trim_type>
+        <lower_upper>lower</lower_upper>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+        <padding_type>none</padding_type>
+        <pad_len />
+        <pad_char />
+      </field>
+    </fields>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>416</xloc>
+      <yloc>144</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+  </transform>
+  <transform>
+    <type>SelectValues</type>
+    <name>Converter tipos interacoes</name>
+    <fields>
+      <select_unspecified>N</select_unspecified>
+      <meta>
+        <name>usuario_id</name>
+        <rename>usuario_id</rename>
+        <type>Integer</type>
+        <length>10</length>
+        <precision>-2</precision>
+        <storage_type />
+        <conversion_mask />
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale />
+        <date_format_timezone />
+        <lenient_string_to_number>N</lenient_string_to_number>
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <encoding />
+        <roundingType>half_even</roundingType>
+      </meta>
+      <meta>
+        <name>conteudo_id</name>
+        <rename>conteudo_id</rename>
+        <type>Integer</type>
+        <length>10</length>
+        <precision>-2</precision>
+        <storage_type />
+        <conversion_mask />
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale />
+        <date_format_timezone />
+        <lenient_string_to_number>N</lenient_string_to_number>
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <encoding />
+        <roundingType>half_even</roundingType>
+      </meta>
+      <meta>
+        <name>data_hora</name>
+        <rename>data_hora</rename>
+        <type>Date</type>
+        <length>19</length>
+        <precision>-2</precision>
+        <storage_type />
+        <conversion_mask>yyyy-MM-dd'T'HH:mm:ss</conversion_mask>
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale />
+        <date_format_timezone />
+        <lenient_string_to_number>N</lenient_string_to_number>
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <encoding />
+        <roundingType>half_even</roundingType>
+      </meta>
+      <meta>
+        <name>tempo_consumido</name>
+        <rename>tempo_consumido</rename>
+        <type>Integer</type>
+        <length>10</length>
+        <precision>-2</precision>
+        <storage_type />
+        <conversion_mask />
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale />
+        <date_format_timezone />
+        <lenient_string_to_number>N</lenient_string_to_number>
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <encoding />
+        <roundingType>half_even</roundingType>
+      </meta>
+      <meta>
+        <name>percentual_conclusao</name>
+        <rename>percentual_conclusao</rename>
+        <type>Number</type>
+        <length>5</length>
+        <precision>2</precision>
+        <storage_type />
+        <conversion_mask />
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale />
+        <date_format_timezone />
+        <lenient_string_to_number>N</lenient_string_to_number>
+        <decimal_symbol>.</decimal_symbol>
+        <grouping_symbol />
+        <currency_symbol />
+        <encoding />
+        <roundingType>half_even</roundingType>
+      </meta>
+      <meta>
+        <name>avaliacao_atribuida</name>
+        <rename>avaliacao_atribuida</rename>
+        <type>Integer</type>
+        <length>10</length>
+        <precision>-2</precision>
+        <storage_type />
+        <conversion_mask />
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale />
+        <date_format_timezone />
+        <lenient_string_to_number>N</lenient_string_to_number>
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <encoding />
+        <roundingType>half_even</roundingType>
+      </meta>
+      <meta>
+        <name>tipo_interacao</name>
+        <rename>tipo_interacao</rename>
+        <type>String</type>
+        <length>50</length>
+        <precision>-2</precision>
+        <storage_type />
+        <conversion_mask />
+        <date_format_lenient>N</date_format_lenient>
+        <date_format_locale />
+        <date_format_timezone />
+        <lenient_string_to_number>N</lenient_string_to_number>
+        <decimal_symbol />
+        <grouping_symbol />
+        <currency_symbol />
+        <encoding />
+        <roundingType>half_even</roundingType>
+      </meta>
+    </fields>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>624</xloc>
+      <yloc>144</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+  </transform>
+  <transform>
+    <type>SortRows</type>
+    <name>Ordenar interacoes</name>
+    <fields>
+      <field>
+        <name>usuario_id</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+      <field>
+        <name>conteudo_id</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+      <field>
+        <name>tipo_interacao</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+      <field>
+        <name>data_hora</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+    <directory>${java.io.tmpdir}</directory>
+    <sort_prefix>out</sort_prefix>
+    <sort_size>1000000</sort_size>
+    <free_memory />
+    <unique_rows>N</unique_rows>
+    <compress>N</compress>
+    <compress_variables />
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>848</xloc>
+      <yloc>144</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+  </transform>
+  <transform>
+    <type>Unique</type>
+    <name>Remover duplicados interacoes</name>
+    <count_rows>N</count_rows>
+    <count_field />
+    <fields>
+      <field>
+        <name>usuario_id</name>
+        <case_insensitive>N</case_insensitive>
+      </field>
+      <field>
+        <name>conteudo_id</name>
+        <case_insensitive>N</case_insensitive>
+      </field>
+      <field>
+        <name>tipo_interacao</name>
+        <case_insensitive>N</case_insensitive>
+      </field>
+      <field>
+        <name>data_hora</name>
+        <case_insensitive>N</case_insensitive>
+      </field>
+    </fields>
+    <reject_duplicate_row>Y</reject_duplicate_row>
+    <error_description>INTERACAO_DUPLICADA</error_description>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>1072</xloc>
+      <yloc>144</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+  </transform>
+  <transform>
+    <type>Validator</type>
+    <name>Validar interacoes</name>
+    <validator_field>
+      <validation_name>usuario_id</validation_name>
+      <name>usuario_id</name>
+      <max_length />
+      <min_length />
+      <null_allowed>N</null_allowed>
+      <only_null_allowed>N</only_null_allowed>
+      <only_numeric_allowed>N</only_numeric_allowed>
+      <data_type />
+      <data_type_verified>N</data_type_verified>
+      <conversion_mask />
+      <decimal_symbol />
+      <grouping_symbol />
+      <is_sourcing_values>N</is_sourcing_values>
+      <sourcing_field />
+      <min_value />
+      <max_value />
+      <start_string />
+      <start_string_not_allowed />
+      <end_string />
+      <end_string_not_allowed />
+      <regular_expression />
+      <regular_expression_not_allowed />
+      <error_code />
+      <error_description />
+      <allowed_value />
+    </validator_field>
+    <validator_field>
+      <validation_name>conteudo_id</validation_name>
+      <name>conteudo_id</name>
+      <max_length />
+      <min_length />
+      <null_allowed>N</null_allowed>
+      <only_null_allowed>N</only_null_allowed>
+      <only_numeric_allowed>N</only_numeric_allowed>
+      <data_type />
+      <data_type_verified>N</data_type_verified>
+      <conversion_mask />
+      <decimal_symbol />
+      <grouping_symbol />
+      <is_sourcing_values>N</is_sourcing_values>
+      <sourcing_field />
+      <min_value />
+      <max_value />
+      <start_string />
+      <start_string_not_allowed />
+      <end_string />
+      <end_string_not_allowed />
+      <regular_expression />
+      <regular_expression_not_allowed />
+      <error_code />
+      <error_description />
+      <allowed_value />
+    </validator_field>
+    <validator_field>
+      <validation_name>tipo_interacao</validation_name>
+      <name>tipo_interacao</name>
+      <max_length />
+      <min_length />
+      <null_allowed>N</null_allowed>
+      <only_null_allowed>N</only_null_allowed>
+      <only_numeric_allowed>N</only_numeric_allowed>
+      <data_type>String</data_type>
+      <data_type_verified>Y</data_type_verified>
+      <conversion_mask />
+      <decimal_symbol />
+      <grouping_symbol />
+      <is_sourcing_values>N</is_sourcing_values>
+      <sourcing_field />
+      <min_value />
+      <max_value />
+      <start_string />
+      <start_string_not_allowed />
+      <end_string />
+      <end_string_not_allowed />
+      <regular_expression />
+      <regular_expression_not_allowed />
+      <error_code />
+      <error_description />
+      <allowed_value>
+        <value>avaliação</value>
+        <value>compartilhamento</value>
+        <value>conclusão</value>
+        <value>curtida</value>
+        <value>início</value>
+        <value>visualização</value>
+      </allowed_value>
+    </validator_field>
+    <validator_field>
+      <validation_name>data_hora</validation_name>
+      <name>data_hora</name>
+      <max_length />
+      <min_length />
+      <null_allowed>N</null_allowed>
+      <only_null_allowed>N</only_null_allowed>
+      <only_numeric_allowed>N</only_numeric_allowed>
+      <data_type />
+      <data_type_verified>N</data_type_verified>
+      <conversion_mask />
+      <decimal_symbol />
+      <grouping_symbol />
+      <is_sourcing_values>N</is_sourcing_values>
+      <sourcing_field />
+      <min_value />
+      <max_value />
+      <start_string />
+      <start_string_not_allowed />
+      <end_string />
+      <end_string_not_allowed />
+      <regular_expression />
+      <regular_expression_not_allowed />
+      <error_code />
+      <error_description />
+      <allowed_value />
+    </validator_field>
+    <validator_field>
+      <validation_name>tempo_consumido</validation_name>
+      <name>tempo_consumido</name>
+      <max_length />
+      <min_length />
+      <null_allowed>N</null_allowed>
+      <only_null_allowed>N</only_null_allowed>
+      <only_numeric_allowed>N</only_numeric_allowed>
+      <data_type>Integer</data_type>
+      <data_type_verified>Y</data_type_verified>
+      <conversion_mask />
+      <decimal_symbol />
+      <grouping_symbol />
+      <is_sourcing_values>N</is_sourcing_values>
+      <sourcing_field />
+      <min_value>0</min_value>
+      <max_value />
+      <start_string />
+      <start_string_not_allowed />
+      <end_string />
+      <end_string_not_allowed />
+      <regular_expression />
+      <regular_expression_not_allowed />
+      <error_code />
+      <error_description />
+      <allowed_value />
+    </validator_field>
+    <validator_field>
+      <validation_name>percentual_conclusao</validation_name>
+      <name>percentual_conclusao</name>
+      <max_length />
+      <min_length />
+      <null_allowed>N</null_allowed>
+      <only_null_allowed>N</only_null_allowed>
+      <only_numeric_allowed>N</only_numeric_allowed>
+      <data_type>Number</data_type>
+      <data_type_verified>Y</data_type_verified>
+      <conversion_mask />
+      <decimal_symbol />
+      <grouping_symbol />
+      <is_sourcing_values>N</is_sourcing_values>
+      <sourcing_field />
+      <min_value>0</min_value>
+      <max_value>100</max_value>
+      <start_string />
+      <start_string_not_allowed />
+      <end_string />
+      <end_string_not_allowed />
+      <regular_expression />
+      <regular_expression_not_allowed />
+      <error_code />
+      <error_description />
+      <allowed_value />
+    </validator_field>
+    <validator_field>
+      <validation_name>avaliacao_atribuida</validation_name>
+      <name>avaliacao_atribuida</name>
+      <max_length />
+      <min_length />
+      <null_allowed>Y</null_allowed>
+      <only_null_allowed>N</only_null_allowed>
+      <only_numeric_allowed>N</only_numeric_allowed>
+      <data_type>Integer</data_type>
+      <data_type_verified>Y</data_type_verified>
+      <conversion_mask />
+      <decimal_symbol />
+      <grouping_symbol />
+      <is_sourcing_values>N</is_sourcing_values>
+      <sourcing_field />
+      <min_value>1</min_value>
+      <max_value>5</max_value>
+      <start_string />
+      <start_string_not_allowed />
+      <end_string />
+      <end_string_not_allowed />
+      <regular_expression />
+      <regular_expression_not_allowed />
+      <error_code />
+      <error_description />
+      <allowed_value />
+    </validator_field>
+    <validate_all>Y</validate_all>
+    <concat_errors>N</concat_errors>
+    <concat_separator />
+    <suppress_log_failed_data>N</suppress_log_failed_data>
+    <suppress_error_log>N</suppress_error_log>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>1072</xloc>
+      <yloc>304</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+  </transform>
+  <transform>
+    <type>Dummy</type>
+    <name>Invalidos interacoes</name>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>896</xloc>
+      <yloc>304</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+  </transform>
+  <transform>
+    <type>FilterRows</type>
+    <name>Validar referencias</name>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <operator>-</operator>
+        <function>=</function>
+        <conditions>
+          <condition>
+            <negated>N</negated>
+            <operator>-</operator>
+            <leftvalue>usuario_referencia_valida</leftvalue>
+            <function>=</function>
+            <value>
+              <name>constant</name>
+              <type>Integer</type>
+              <text>1</text>
+              <length>-1</length>
+              <precision>0</precision>
+              <isnull>N</isnull>
+              <mask>####0;-####0</mask>
+            </value>
+            <conditions />
+          </condition>
+          <condition>
+            <negated>N</negated>
+            <operator>AND</operator>
+            <leftvalue>conteudo_referencia_valida</leftvalue>
+            <function>=</function>
+            <value>
+              <name>constant</name>
+              <type>Integer</type>
+              <text>1</text>
+              <length>-1</length>
+              <precision>0</precision>
+              <isnull>N</isnull>
+              <mask>####0;-####0</mask>
+            </value>
+            <conditions />
+          </condition>
+        </conditions>
+      </condition>
+    </compare>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>1072</xloc>
+      <yloc>464</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+    <send_true_to>Gravar Silver interacoes</send_true_to>
+    <send_false_to>Adicionar regra referencia</send_false_to>
+  </transform>
+  <transform>
+    <type>Dummy</type>
+    <name>Erros conversao interacoes</name>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>800</xloc>
+      <yloc>40</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+  </transform>
+  <transform>
+    <type>Dummy</type>
+    <name>Duplicados interacoes</name>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>1180</xloc>
+      <yloc>110</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+  </transform>
+  <transform>
+    <type>Constant</type>
+    <name>Adicionar regra conversao</name>
+    <fields>
+      <field>
+        <currency />
+        <decimal />
+        <group />
+        <nullif>ERRO_CONVERSAO_TIPO</nullif>
+        <name>regra_violada</name>
+        <type>String</type>
+        <format />
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>1000</xloc>
+      <yloc>40</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+  </transform>
+  <transform>
+    <type>Constant</type>
+    <name>Adicionar regra duplicado</name>
+    <fields>
+      <field>
+        <currency />
+        <decimal />
+        <group />
+        <nullif>INTERACAO_DUPLICADA</nullif>
+        <name>regra_violada</name>
+        <type>String</type>
+        <format />
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>1380</xloc>
+      <yloc>110</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+  </transform>
+  <transform>
+    <type>Constant</type>
+    <name>Adicionar regra validacao</name>
+    <fields>
+      <field>
+        <currency />
+        <decimal />
+        <group />
+        <nullif>VALIDACAO_INTERACAO</nullif>
+        <name>regra_violada</name>
+        <type>String</type>
+        <format />
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>760</xloc>
+      <yloc>360</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+  </transform>
+  <transform>
+    <type>Constant</type>
+    <name>Adicionar regra referencia</name>
+    <fields>
+      <field>
+        <currency />
+        <decimal />
+        <group />
+        <nullif>REFERENCIA_USUARIO_OU_CONTEUDO_INVALIDA</nullif>
+        <name>regra_violada</name>
+        <type>String</type>
+        <format />
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <currency />
+        <decimal />
+        <group />
+        <nullif>usuario_id ou conteudo_id inexistente no Desafio 1</nullif>
+        <name>mensagem_erro</name>
+        <type>String</type>
+        <format />
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>1310</xloc>
+      <yloc>500</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+  </transform>
+  <transform>
+    <type>TableOutput</type>
+    <name>Gravar Silver interacoes</name>
+    <connection>pg_plataforma_edu</connection>
+    <schema>silver</schema>
+    <table>interacoes</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <only_when_have_rows>N</only_when_have_rows>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field />
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field />
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field />
+    <specify_fields>Y</specify_fields>
+    <auto_update_table_structure>N</auto_update_table_structure>
+    <always_drop_and_recreate>N</always_drop_and_recreate>
+    <add_columns>N</add_columns>
+    <drop_columns>N</drop_columns>
+    <change_column_types>N</change_column_types>
+    <fields>
+      <field>
+        <stream_name>usuario_id</stream_name>
+        <column_name>usuario_id</column_name>
+      </field>
+      <field>
+        <stream_name>conteudo_id</stream_name>
+        <column_name>conteudo_id</column_name>
+      </field>
+      <field>
+        <stream_name>tipo_interacao</stream_name>
+        <column_name>tipo_interacao</column_name>
+      </field>
+      <field>
+        <stream_name>data_hora</stream_name>
+        <column_name>data_hora</column_name>
+      </field>
+      <field>
+        <stream_name>tempo_consumido</stream_name>
+        <column_name>tempo_consumido</column_name>
+      </field>
+      <field>
+        <stream_name>percentual_conclusao</stream_name>
+        <column_name>percentual_conclusao</column_name>
+      </field>
+      <field>
+        <stream_name>avaliacao_atribuida</stream_name>
+        <column_name>avaliacao_atribuida</column_name>
+      </field>
+      <field>
+        <stream_name>origem</stream_name>
+        <column_name>origem</column_name>
+      </field>
+      <field>
+        <stream_name>execucao_id</stream_name>
+        <column_name>execucao_id</column_name>
+      </field>
+      <field>
+        <stream_name>data_hora_ingestao</stream_name>
+        <column_name>data_hora_ingestao</column_name>
+      </field>
+    </fields>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>1320</xloc>
+      <yloc>390</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+  </transform>
+  <transform>
+    <type>TableOutput</type>
+    <name>Gravar quarentena conversao</name>
+    <connection>pg_plataforma_edu</connection>
+    <schema>quarentena</schema>
+    <table>interacoes</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <only_when_have_rows>N</only_when_have_rows>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field />
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field />
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field />
+    <specify_fields>Y</specify_fields>
+    <auto_update_table_structure>N</auto_update_table_structure>
+    <always_drop_and_recreate>N</always_drop_and_recreate>
+    <add_columns>N</add_columns>
+    <drop_columns>N</drop_columns>
+    <change_column_types>N</change_column_types>
+    <fields>
+      <field>
+        <stream_name>usuario_id</stream_name>
+        <column_name>usuario_id</column_name>
+      </field>
+      <field>
+        <stream_name>conteudo_id</stream_name>
+        <column_name>conteudo_id</column_name>
+      </field>
+      <field>
+        <stream_name>tipo_interacao</stream_name>
+        <column_name>tipo_interacao</column_name>
+      </field>
+      <field>
+        <stream_name>data_hora</stream_name>
+        <column_name>data_hora</column_name>
+      </field>
+      <field>
+        <stream_name>tempo_consumido</stream_name>
+        <column_name>tempo_consumido</column_name>
+      </field>
+      <field>
+        <stream_name>percentual_conclusao</stream_name>
+        <column_name>percentual_conclusao</column_name>
+      </field>
+      <field>
+        <stream_name>avaliacao_atribuida</stream_name>
+        <column_name>avaliacao_atribuida</column_name>
+      </field>
+      <field>
+        <stream_name>origem</stream_name>
+        <column_name>origem</column_name>
+      </field>
+      <field>
+        <stream_name>execucao_id</stream_name>
+        <column_name>execucao_id</column_name>
+      </field>
+      <field>
+        <stream_name>regra_violada</stream_name>
+        <column_name>regra_violada</column_name>
+      </field>
+      <field>
+        <stream_name>mensagem_erro</stream_name>
+        <column_name>mensagem_erro</column_name>
+      </field>
+    </fields>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>1210</xloc>
+      <yloc>40</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+  </transform>
+  <transform>
+    <type>TableOutput</type>
+    <name>Gravar quarentena duplicado</name>
+    <connection>pg_plataforma_edu</connection>
+    <schema>quarentena</schema>
+    <table>interacoes</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <only_when_have_rows>N</only_when_have_rows>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field />
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field />
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field />
+    <specify_fields>Y</specify_fields>
+    <auto_update_table_structure>N</auto_update_table_structure>
+    <always_drop_and_recreate>N</always_drop_and_recreate>
+    <add_columns>N</add_columns>
+    <drop_columns>N</drop_columns>
+    <change_column_types>N</change_column_types>
+    <fields>
+      <field>
+        <stream_name>usuario_id</stream_name>
+        <column_name>usuario_id</column_name>
+      </field>
+      <field>
+        <stream_name>conteudo_id</stream_name>
+        <column_name>conteudo_id</column_name>
+      </field>
+      <field>
+        <stream_name>tipo_interacao</stream_name>
+        <column_name>tipo_interacao</column_name>
+      </field>
+      <field>
+        <stream_name>data_hora</stream_name>
+        <column_name>data_hora</column_name>
+      </field>
+      <field>
+        <stream_name>tempo_consumido</stream_name>
+        <column_name>tempo_consumido</column_name>
+      </field>
+      <field>
+        <stream_name>percentual_conclusao</stream_name>
+        <column_name>percentual_conclusao</column_name>
+      </field>
+      <field>
+        <stream_name>avaliacao_atribuida</stream_name>
+        <column_name>avaliacao_atribuida</column_name>
+      </field>
+      <field>
+        <stream_name>origem</stream_name>
+        <column_name>origem</column_name>
+      </field>
+      <field>
+        <stream_name>execucao_id</stream_name>
+        <column_name>execucao_id</column_name>
+      </field>
+      <field>
+        <stream_name>regra_violada</stream_name>
+        <column_name>regra_violada</column_name>
+      </field>
+      <field>
+        <stream_name>mensagem_erro</stream_name>
+        <column_name>mensagem_erro</column_name>
+      </field>
+    </fields>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>1590</xloc>
+      <yloc>110</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+  </transform>
+  <transform>
+    <type>TableOutput</type>
+    <name>Gravar quarentena validacao</name>
+    <connection>pg_plataforma_edu</connection>
+    <schema>quarentena</schema>
+    <table>interacoes</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <only_when_have_rows>N</only_when_have_rows>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field />
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field />
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field />
+    <specify_fields>Y</specify_fields>
+    <auto_update_table_structure>N</auto_update_table_structure>
+    <always_drop_and_recreate>N</always_drop_and_recreate>
+    <add_columns>N</add_columns>
+    <drop_columns>N</drop_columns>
+    <change_column_types>N</change_column_types>
+    <fields>
+      <field>
+        <stream_name>usuario_id</stream_name>
+        <column_name>usuario_id</column_name>
+      </field>
+      <field>
+        <stream_name>conteudo_id</stream_name>
+        <column_name>conteudo_id</column_name>
+      </field>
+      <field>
+        <stream_name>tipo_interacao</stream_name>
+        <column_name>tipo_interacao</column_name>
+      </field>
+      <field>
+        <stream_name>data_hora</stream_name>
+        <column_name>data_hora</column_name>
+      </field>
+      <field>
+        <stream_name>tempo_consumido</stream_name>
+        <column_name>tempo_consumido</column_name>
+      </field>
+      <field>
+        <stream_name>percentual_conclusao</stream_name>
+        <column_name>percentual_conclusao</column_name>
+      </field>
+      <field>
+        <stream_name>avaliacao_atribuida</stream_name>
+        <column_name>avaliacao_atribuida</column_name>
+      </field>
+      <field>
+        <stream_name>origem</stream_name>
+        <column_name>origem</column_name>
+      </field>
+      <field>
+        <stream_name>execucao_id</stream_name>
+        <column_name>execucao_id</column_name>
+      </field>
+      <field>
+        <stream_name>regra_violada</stream_name>
+        <column_name>regra_violada</column_name>
+      </field>
+      <field>
+        <stream_name>mensagem_erro</stream_name>
+        <column_name>mensagem_erro</column_name>
+      </field>
+    </fields>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>970</xloc>
+      <yloc>360</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+  </transform>
+  <transform>
+    <type>TableOutput</type>
+    <name>Gravar quarentena referencia</name>
+    <connection>pg_plataforma_edu</connection>
+    <schema>quarentena</schema>
+    <table>interacoes</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <only_when_have_rows>N</only_when_have_rows>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field />
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field />
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field />
+    <specify_fields>Y</specify_fields>
+    <auto_update_table_structure>N</auto_update_table_structure>
+    <always_drop_and_recreate>N</always_drop_and_recreate>
+    <add_columns>N</add_columns>
+    <drop_columns>N</drop_columns>
+    <change_column_types>N</change_column_types>
+    <fields>
+      <field>
+        <stream_name>usuario_id</stream_name>
+        <column_name>usuario_id</column_name>
+      </field>
+      <field>
+        <stream_name>conteudo_id</stream_name>
+        <column_name>conteudo_id</column_name>
+      </field>
+      <field>
+        <stream_name>tipo_interacao</stream_name>
+        <column_name>tipo_interacao</column_name>
+      </field>
+      <field>
+        <stream_name>data_hora</stream_name>
+        <column_name>data_hora</column_name>
+      </field>
+      <field>
+        <stream_name>tempo_consumido</stream_name>
+        <column_name>tempo_consumido</column_name>
+      </field>
+      <field>
+        <stream_name>percentual_conclusao</stream_name>
+        <column_name>percentual_conclusao</column_name>
+      </field>
+      <field>
+        <stream_name>avaliacao_atribuida</stream_name>
+        <column_name>avaliacao_atribuida</column_name>
+      </field>
+      <field>
+        <stream_name>origem</stream_name>
+        <column_name>origem</column_name>
+      </field>
+      <field>
+        <stream_name>execucao_id</stream_name>
+        <column_name>execucao_id</column_name>
+      </field>
+      <field>
+        <stream_name>regra_violada</stream_name>
+        <column_name>regra_violada</column_name>
+      </field>
+      <field>
+        <stream_name>mensagem_erro</stream_name>
+        <column_name>mensagem_erro</column_name>
+      </field>
+    </fields>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>1540</xloc>
+      <yloc>500</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name />
+    </partitioning>
+    <attributes />
+  </transform>
+  <order>
+    <hop>
+      <from>Ler Bronze interacoes</from>
+      <to>Padronizar strings</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Padronizar strings</from>
+      <to>Converter tipos interacoes</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Converter tipos interacoes</from>
+      <to>Ordenar interacoes</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Ordenar interacoes</from>
+      <to>Remover duplicados interacoes</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Remover duplicados interacoes</from>
+      <to>Validar interacoes</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Validar interacoes</from>
+      <to>Invalidos interacoes</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Validar interacoes</from>
+      <to>Validar referencias</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Converter tipos interacoes</from>
+      <to>Erros conversao interacoes</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Erros conversao interacoes</from>
+      <to>Adicionar regra conversao</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Adicionar regra conversao</from>
+      <to>Gravar quarentena conversao</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Remover duplicados interacoes</from>
+      <to>Duplicados interacoes</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Duplicados interacoes</from>
+      <to>Adicionar regra duplicado</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Adicionar regra duplicado</from>
+      <to>Gravar quarentena duplicado</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Invalidos interacoes</from>
+      <to>Adicionar regra validacao</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Adicionar regra validacao</from>
+      <to>Gravar quarentena validacao</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Validar referencias</from>
+      <to>Gravar Silver interacoes</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Validar referencias</from>
+      <to>Adicionar regra referencia</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Adicionar regra referencia</from>
+      <to>Gravar quarentena referencia</to>
+      <enabled>Y</enabled>
+    </hop>
+  </order>
+  <notepads />
+  <attributes />
+  <transform_error_handling>
+    <error>
+      <source_transform>Converter tipos interacoes</source_transform>
+      <target_transform>Erros conversao interacoes</target_transform>
+      <is_enabled>Y</is_enabled>
+      <nr_valuename>qtd_erros</nr_valuename>
+      <descriptions_valuename>mensagem_erro</descriptions_valuename>
+      <fields_valuename>campos_erro</fields_valuename>
+      <codes_valuename>codigo_erro</codes_valuename>
+      <max_errors />
+      <max_pct_errors />
+      <min_pct_rows />
+    </error>
+    <error>
+      <source_transform>Remover duplicados interacoes</source_transform>
+      <target_transform>Duplicados interacoes</target_transform>
+      <is_enabled>Y</is_enabled>
+      <nr_valuename>qtd_erros</nr_valuename>
+      <descriptions_valuename>mensagem_erro</descriptions_valuename>
+      <fields_valuename>campos_erro</fields_valuename>
+      <codes_valuename>codigo_erro</codes_valuename>
+      <max_errors />
+      <max_pct_errors />
+      <min_pct_rows />
+    </error>
+    <error>
+      <source_transform>Validar interacoes</source_transform>
+      <target_transform>Invalidos interacoes</target_transform>
+      <is_enabled>Y</is_enabled>
+      <nr_valuename>qtd_erros</nr_valuename>
+      <descriptions_valuename>mensagem_erro</descriptions_valuename>
+      <fields_valuename>campos_erro</fields_valuename>
+      <codes_valuename>codigo_erro</codes_valuename>
+      <max_errors />
+      <max_pct_errors />
+      <min_pct_rows />
+    </error>
+  </transform_error_handling>
+</pipeline>
