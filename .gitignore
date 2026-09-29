@@ -2,3 +2,4 @@
 __pycache__/
 dados/processados/*
 .env
+hop/environments/local.json
