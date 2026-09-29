@@ -63,3 +63,41 @@ CREATE TABLE recomendacao (
     FOREIGN KEY (usuario_id) REFERENCES usuario(usuario_id),
     FOREIGN KEY (conteudo_id) REFERENCES conteudo(conteudo_id)
 );
+
+-- sql/camada_bronze_auditoria.sql
+-- =========================================================================
+-- REQUISITO RF20 - DESTINO DE BANCO DE DADOS NA CAMADA BRONZE
+-- Finalidade: Armazenar cópias brutas com logs de auditoria do sistema
+-- =========================================================================
+
+-- 1. Tabela de Auditoria Bruta do Catálogo
+CREATE TABLE IF NOT EXISTS bronze_catalogo_auditoria (
+    conteudo_id VARCHAR(50),
+    titulo TEXT,
+    tipo VARCHAR(100),
+    categoria VARCHAR(150),
+    nivel VARCHAR(100),
+    carga_horaria_min VARCHAR(50),
+    data_publicacao VARCHAR(100),
+    descricao TEXT,
+    autor VARCHAR(150),
+    -- Campos obrigatórios de Auditoria (RF20)
+    origem_dado VARCHAR(100) DEFAULT 'catalogo_csv',
+    data_hora_ingestao VARCHAR(100),
+    execucao_id VARCHAR(100)
+);
+
+-- 2. Tabela de Auditoria Bruta de Interações
+CREATE TABLE IF NOT EXISTS bronze_interacoes_auditoria (
+    usuario_id VARCHAR(50),
+    conteudo_id VARCHAR(50),
+    tipo_interacao VARCHAR(100),
+    data_hora VARCHAR(100),
+    tempo_consumido VARCHAR(50),
+    percentual_conclusao VARCHAR(50),
+    avaliacao_atribuida VARCHAR(50),
+    -- Campos obrigatórios de Auditoria (RF20)
+    origem_dado VARCHAR(100) DEFAULT 'interacoes_json',
+    data_hora_ingestao VARCHAR(100),
+    execucao_id VARCHAR(100)
+);

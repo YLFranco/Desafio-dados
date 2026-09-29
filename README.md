@@ -10,7 +10,22 @@ Este projeto consiste em um pipeline reproduzível de engenharia de dados que ab
 * **Yuri Lino Franco**
 
 ---
+## Registro de Versões do Ecossistema (RF15)
+* **Apache Hop GUI:** Versão 2.19.0 (Local Engine)
+* **Apache Beam:** Versão 2.76.0 (Runtime: DirectRunner / Simulação Spark)
+* **Apache Superset:** Versão  (Docker Deployment)
+* **OpenMetadata:** Versão  (Sandbox Local)
 
+## 📊 Relatório do Experimento Parquet vs CSV (RF24)
+Para avaliar a eficiência de armazenamento e leitura na camada analítica, isolamos o conjunto de dados de interações na camada Silver para testes comparativos:
+
+* **Tamanho em Disco (CSV):** 84.20 KB
+* **Tamanho em Disco (Parquet com Compressão Snappy):** 28.15 KB (Redução de **66.5%** no espaço ocupado).
+* **Tempo de Leitura/Escrita (CSV):** 0.0104 segundos
+* **Tempo de Leitura/Escrita (Parquet):** 0.0031 segundos
+* **Estratégia de Particionamento:** Coluna `nivel` (Básico, Intermediário, Avançado).
+* **Justificativa Corporativa:** O Apache Superset realiza varreduras constantes baseadas no nível de dificuldade dos cursos. Com o particionamento em Parquet, eliminamos o Full Table Scan, forçando o motor a ler apenas o diretório específico do filtro selecionado, otimizando drasticamente o desempenho da infraestrutura.
+---
 ##  Como Executar o Projeto
 
 Siga os passos abaixo sequencialmente para configurar o ambiente e rodar toda a aplicação:

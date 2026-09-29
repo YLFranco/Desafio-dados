@@ -1,891 +1,33 @@
 [
     {
-        "conteudo_id": "579",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 42.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "627",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 138.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "420",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 32.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "116",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 23.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "634",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 17.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "567",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 5.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "23",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 15.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "434",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 2.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "695",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 12.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "266",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 109.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "934",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 14.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "306",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 52.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "154",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 31.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "3",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 50.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "300",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 70.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "137",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 768.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "817",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 73.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "30",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 967.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "963",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 52.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "885",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 26.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "380",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 11.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "322",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 148.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "604",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 62.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "994",
+        "conteudo_id": "753",
         "total_interacoes": 2,
         "tempo_total_minutos": 14.0,
         "usuarios_unicos_impactados": 2
     },
     {
-        "conteudo_id": "596",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 90.0,
-        "usuarios_unicos_impactados": 2
+        "conteudo_id": "489",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 14.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "654",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 91.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "324",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 20.0,
+        "usuarios_unicos_impactados": 1
     },
     {
         "conteudo_id": "951",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 82.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "860",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 87.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "229",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 18.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "152",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 2309.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "785",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 17.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "392",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 11.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "42",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 65.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "435",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 22.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "810",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 98.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "523",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 62.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "896",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 951.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "754",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 487.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "601",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 24.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "163",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 31.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "827",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 416.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "590",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 13.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "526",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "27",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 54.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "793",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 35.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "460",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 3.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "114",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 35.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "830",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 7.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "665",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 3367.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "53",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 10.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "901",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 206.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "274",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 4.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "637",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 114.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "38",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 4.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "780",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 238.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "993",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 15.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "881",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 18.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "339",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 251.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "814",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 22.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "683",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 6.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "169",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 11.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "350",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 4.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "684",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 69.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "975",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 16.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "840",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 27.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "94",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 13.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "472",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 364.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "953",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1053.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "364",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 12.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "498",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 91.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "299",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 43.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "725",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 56.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "52",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 138.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "833",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 62.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "517",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "946",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 67.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "105",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "19",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 22.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "856",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 86.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "723",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 758.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "465",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 12.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "41",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 3.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "510",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 19.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "325",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 6.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "273",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "939",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 9.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "776",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 29.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "327",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 64.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "630",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 4.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "87",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 104.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "553",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 24.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "891",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 10.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "582",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 65.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "984",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 24.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "451",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 15.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "808",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 3.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "520",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 10.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "774",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 32.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "607",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1768.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "598",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 18.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "401",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 20.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "788",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 20.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "638",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 13.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "861",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 42.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "409",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 4.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "481",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 43.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "230",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 24.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "200",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 127.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "467",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "261",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 22.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "706",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 430.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "964",
         "total_interacoes": 1,
         "tempo_total_minutos": 39.0,
         "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "983",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 8.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "136",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 33.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "628",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 7.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "550",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 59.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "563",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 41.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "996",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 167.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "65",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 10.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "713",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 92.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "509",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 142.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "243",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 324.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "531",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 16.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "959",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 58.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "317",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 77.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "271",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 324.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "493",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 346.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "685",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 4.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "20",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 6.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "624",
-        "total_interacoes": 4,
-        "tempo_total_minutos": 2527.0,
-        "usuarios_unicos_impactados": 4
-    },
-    {
-        "conteudo_id": "879",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 749.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "585",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 9.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "399",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 5.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "90",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 45.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "760",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 5.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "69",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 349.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "791",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 15.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "369",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 14.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "267",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 306.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "661",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 54.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "463",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 16.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "128",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 11.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "733",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 15.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "1",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2376.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "9",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 4.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "61",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 27.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "179",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 3562.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "535",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 13.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "430",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 5454.0,
-        "usuarios_unicos_impactados": 3
     },
     {
         "conteudo_id": "672",
@@ -894,1167 +36,15 @@
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "610",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 56.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "682",
+        "conteudo_id": "588",
         "total_interacoes": 1,
         "tempo_total_minutos": 1.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "336",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "184",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 7.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "453",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 280.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "677",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 13.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "734",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 54.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "949",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 14.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "190",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 675.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "72",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 35.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "816",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "594",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 4.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "260",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 84.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "293",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "290",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "837",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 89.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "91",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 53.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "151",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 458.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "155",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1250.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "784",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 597.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "406",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "669",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 55.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "412",
-        "total_interacoes": 4,
-        "tempo_total_minutos": 85.0,
-        "usuarios_unicos_impactados": 4
-    },
-    {
-        "conteudo_id": "671",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 33.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "374",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 30.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "333",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1211.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "474",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 63.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "936",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 11.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "895",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 6.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "25",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 69.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "461",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 825.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "762",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 609.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "722",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 21.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "584",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 14.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "857",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 71.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "50",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 4.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "411",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 40.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "298",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 77.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "176",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 87.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "171",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 568.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "10",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 10.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "688",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 18.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "206",
-        "total_interacoes": 5,
-        "tempo_total_minutos": 776.0,
-        "usuarios_unicos_impactados": 5
-    },
-    {
-        "conteudo_id": "133",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "724",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 22.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "512",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 100.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "917",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 25.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "652",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 4.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "952",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 27.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "778",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 64.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "427",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 7.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "470",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 863.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "309",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 88.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "771",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "191",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 492.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "694",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 955.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "935",
-        "total_interacoes": 4,
-        "tempo_total_minutos": 158.0,
-        "usuarios_unicos_impactados": 4
-    },
-    {
-        "conteudo_id": "657",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2033.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "770",
-        "total_interacoes": 4,
-        "tempo_total_minutos": 65.0,
-        "usuarios_unicos_impactados": 4
-    },
-    {
-        "conteudo_id": "619",
+        "conteudo_id": "933",
         "total_interacoes": 1,
         "tempo_total_minutos": 3.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "826",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 42.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "222",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 46.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "349",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 44.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "138",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 2470.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "295",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 2.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "543",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 136.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "282",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 69.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "332",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 3.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "868",
-        "total_interacoes": 4,
-        "tempo_total_minutos": 3316.0,
-        "usuarios_unicos_impactados": 4
-    },
-    {
-        "conteudo_id": "914",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 186.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "60",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "806",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 78.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "402",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 812.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "324",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 43.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "796",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 26.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "728",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 32.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "958",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 568.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "362",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "822",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 118.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "363",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 8.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "239",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 66.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "670",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "238",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 6.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "278",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 79.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "815",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 9.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "631",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 12.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "256",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 10.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "211",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 28.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "656",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 42.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "258",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1050.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "753",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 15.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "275",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 35.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "765",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 432.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "749",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 24.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "898",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "642",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 25.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "888",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 8.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "164",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 93.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "947",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 166.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "919",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 7.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "581",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 1604.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "570",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 12.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "36",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 50.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "547",
-        "total_interacoes": 4,
-        "tempo_total_minutos": 17.0,
-        "usuarios_unicos_impactados": 4
-    },
-    {
-        "conteudo_id": "571",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2713.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "219",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "245",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 10.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "636",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 17.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "641",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 1377.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "532",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 798.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "971",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 36.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "496",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 38.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "893",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 770.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "104",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 14.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "232",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 4.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "545",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 60.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "622",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 19.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "614",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 74.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "178",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 94.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "247",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 76.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "558",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 11.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "468",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 55.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "422",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 1958.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "395",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "564",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 54.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "55",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 32.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "703",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 17.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "589",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 22.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "45",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 37.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "391",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 6.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "617",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 62.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "216",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 88.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "884",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 52.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "586",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 22.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "832",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 36.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "92",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 885.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "8",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 675.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "756",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 66.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "485",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 71.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "916",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 858.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "181",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 102.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "852",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 69.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "813",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 82.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "606",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 3.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "518",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1992.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "7",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 9.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "241",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 106.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "805",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 64.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "287",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 27.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "285",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "43",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 47.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "514",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 185.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "738",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 79.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "999",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 32.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "755",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 2.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "845",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 27.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "170",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 628.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "769",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 160.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "398",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 82.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "173",
-        "total_interacoes": 4,
-        "tempo_total_minutos": 66.0,
-        "usuarios_unicos_impactados": 4
-    },
-    {
-        "conteudo_id": "157",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 16.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "872",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "521",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 7.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "204",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 65.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "389",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 740.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "482",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 83.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "22",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 25.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "432",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 34.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "408",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 92.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "708",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 8.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "913",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2125.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "555",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 11.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "519",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 26.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "96",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "249",
-        "total_interacoes": 4,
-        "tempo_total_minutos": 23.0,
-        "usuarios_unicos_impactados": 4
-    },
-    {
-        "conteudo_id": "425",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 27.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "40",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 16.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "347",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 19.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "676",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 88.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "101",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 5.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "653",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 37.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "413",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 85.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "787",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 70.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "691",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 29.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "569",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 22.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "790",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 63.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "6",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 12.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "747",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 258.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "602",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1714.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "666",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 363.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "120",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 14.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "869",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 7.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "742",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "763",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 48.0,
         "usuarios_unicos_impactados": 1
     },
     {
@@ -2064,1113 +54,27 @@
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "658",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 13.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "431",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 533.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "933",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 3.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "945",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 1706.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "530",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 33.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "97",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 2334.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "649",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 7.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "644",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 70.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "259",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 131.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "252",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 356.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "635",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "177",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 41.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "329",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 16.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "197",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "534",
-        "total_interacoes": 4,
-        "tempo_total_minutos": 44.0,
-        "usuarios_unicos_impactados": 4
-    },
-    {
-        "conteudo_id": "892",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 70.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "147",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 3.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "458",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 3178.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "66",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 70.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "751",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 518.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "876",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 27.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "359",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 567.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "732",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "387",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 145.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "927",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 8.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "118",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 107.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "313",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 228.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "156",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 528.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "707",
-        "total_interacoes": 4,
-        "tempo_total_minutos": 21.0,
-        "usuarios_unicos_impactados": 4
-    },
-    {
-        "conteudo_id": "792",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 22.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "524",
-        "total_interacoes": 4,
-        "tempo_total_minutos": 94.0,
-        "usuarios_unicos_impactados": 4
-    },
-    {
-        "conteudo_id": "355",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 811.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "849",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 100.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "737",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 8.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "494",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 35.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "574",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "175",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 11.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "712",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 33.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "522",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 14.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "246",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 10.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "745",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 19.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "883",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 517.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "199",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 88.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "646",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 33.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "83",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 59.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "717",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "429",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 21.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "838",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 367.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "595",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 27.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "681",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 871.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "315",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 68.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "5",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 3.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "664",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "768",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 3.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "292",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 15.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "812",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 20.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "46",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 19.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "86",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 27.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "226",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 18.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "969",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "473",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 601.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "937",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "701",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 79.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "577",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 864.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "858",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 6.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "185",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 24.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "941",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 46.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "188",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 913.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "528",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 7.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "859",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 32.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "820",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 70.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "704",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 42.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "331",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 95.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "889",
-        "total_interacoes": 4,
-        "tempo_total_minutos": 93.0,
-        "usuarios_unicos_impactados": 4
-    },
-    {
-        "conteudo_id": "938",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 75.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "633",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 642.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "565",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 854.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "752",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 55.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "357",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 31.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "15",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 2256.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "599",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 61.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "515",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 22.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "674",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 5.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "159",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 9.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "864",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "848",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 49.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "301",
+        "conteudo_id": "885",
         "total_interacoes": 1,
         "tempo_total_minutos": 26.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "966",
+        "conteudo_id": "519",
         "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
+        "tempo_total_minutos": 26.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "268",
-        "total_interacoes": 5,
-        "tempo_total_minutos": 45.0,
-        "usuarios_unicos_impactados": 5
-    },
-    {
-        "conteudo_id": "166",
+        "conteudo_id": "690",
         "total_interacoes": 2,
-        "tempo_total_minutos": 9.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "578",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 5.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "439",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 21.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "489",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 24.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "379",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 514.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "603",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 551.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "689",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 104.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "192",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 800.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "174",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 145.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "743",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 64.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "615",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 20.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "632",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 8.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "93",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2205.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "251",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 443.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "338",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 1271.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "904",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 9.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "825",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 41.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "318",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 511.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "976",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 45.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "111",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 35.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "965",
-        "total_interacoes": 4,
-        "tempo_total_minutos": 30.0,
-        "usuarios_unicos_impactados": 4
-    },
-    {
-        "conteudo_id": "288",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 14.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "330",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 32.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "890",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 103.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "334",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 11.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "693",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 133.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "829",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 40.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "356",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 2116.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "132",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 36.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "921",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "711",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 682.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "348",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 14.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "231",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 20.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "782",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "126",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 41.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "276",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 79.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "456",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 275.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "95",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 870.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "158",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 143.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "202",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 75.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "234",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 17.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "269",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 186.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "477",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 66.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "343",
-        "total_interacoes": 4,
-        "tempo_total_minutos": 112.0,
-        "usuarios_unicos_impactados": 4
-    },
-    {
-        "conteudo_id": "366",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 369.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "650",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 280.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "14",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 54.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "394",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 29.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "421",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 34.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "81",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 513.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "310",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 97.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "368",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 148.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "106",
-        "total_interacoes": 4,
-        "tempo_total_minutos": 7208.0,
-        "usuarios_unicos_impactados": 4
-    },
-    {
-        "conteudo_id": "667",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 76.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "228",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "418",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 153.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "383",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 755.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "505",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 45.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "940",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 35.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "588",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 3.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "354",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1144.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "995",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 57.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "471",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 3.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "240",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 55.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "699",
-        "total_interacoes": 1,
         "tempo_total_minutos": 13.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "311",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 1285.0,
         "usuarios_unicos_impactados": 2
     },
     {
-        "conteudo_id": "353",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 161.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "828",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 33.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "847",
+        "conteudo_id": "849",
         "total_interacoes": 1,
-        "tempo_total_minutos": 12.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "842",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 275.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "592",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 127.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "225",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 396.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "687",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 431.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "654",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 91.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "79",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 106.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "605",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "302",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 637.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "948",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 3.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "662",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 21.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "802",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 82.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "452",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 90.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "110",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 21.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "680",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 1263.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "811",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 19.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "679",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 22.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "874",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 282.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "76",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 1356.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "982",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 39.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "572",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 79.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "385",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 51.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "929",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 21.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "28",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 19.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "600",
-        "total_interacoes": 5,
-        "tempo_total_minutos": 198.0,
-        "usuarios_unicos_impactados": 5
-    },
-    {
-        "conteudo_id": "71",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 9.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "475",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "495",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
+        "tempo_total_minutos": 43.0,
         "usuarios_unicos_impactados": 1
     },
     {
@@ -3180,15 +84,297 @@
         "usuarios_unicos_impactados": 2
     },
     {
-        "conteudo_id": "809",
+        "conteudo_id": "79",
         "total_interacoes": 1,
-        "tempo_total_minutos": 7.0,
+        "tempo_total_minutos": 29.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "554",
+        "conteudo_id": "159",
         "total_interacoes": 2,
-        "tempo_total_minutos": 303.0,
+        "tempo_total_minutos": 9.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "276",
+        "total_interacoes": 3,
+        "tempo_total_minutos": 79.0,
+        "usuarios_unicos_impactados": 3
+    },
+    {
+        "conteudo_id": "225",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 359.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "243",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 229.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "669",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 30.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "687",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 431.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "97",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1501.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "816",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 2.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "852",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 69.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "261",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 22.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "984",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "46",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 4.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "357",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 21.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "768",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 3.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "126",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 41.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "474",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 27.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "493",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 346.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "376",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "967",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 23.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "934",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 14.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "259",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 131.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "523",
+        "total_interacoes": 3,
+        "tempo_total_minutos": 62.0,
+        "usuarios_unicos_impactados": 3
+    },
+    {
+        "conteudo_id": "703",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 17.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "604",
+        "total_interacoes": 3,
+        "tempo_total_minutos": 62.0,
+        "usuarios_unicos_impactados": 3
+    },
+    {
+        "conteudo_id": "637",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 114.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "14",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 22.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "226",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 18.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "754",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 487.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "952",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 27.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "802",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 30.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "145",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 14.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "181",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 102.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "325",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 5.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "622",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 13.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "901",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 206.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "83",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 36.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "130",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 146.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "262",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1047.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "460",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 3.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "916",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 858.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "310",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 44.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "343",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 27.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "949",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 14.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "295",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 2.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "163",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 22.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "178",
+        "total_interacoes": 3,
+        "tempo_total_minutos": 94.0,
+        "usuarios_unicos_impactados": 3
+    },
+    {
+        "conteudo_id": "790",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 63.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "505",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 45.0,
         "usuarios_unicos_impactados": 2
     },
     {
@@ -3198,34 +384,40 @@
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "428",
+        "conteudo_id": "820",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 70.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "211",
         "total_interacoes": 2,
-        "tempo_total_minutos": 43.0,
+        "tempo_total_minutos": 28.0,
         "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "574",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1.0,
+        "usuarios_unicos_impactados": 1
     },
     {
         "conteudo_id": "853",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 2.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "769",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 56.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "868",
         "total_interacoes": 2,
-        "tempo_total_minutos": 16.0,
+        "tempo_total_minutos": 293.0,
         "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "145",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 14.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "504",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 16.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "203",
-        "total_interacoes": 4,
-        "tempo_total_minutos": 172.0,
-        "usuarios_unicos_impactados": 4
     },
     {
         "conteudo_id": "985",
@@ -3234,13 +426,31 @@
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "758",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 23.0,
-        "usuarios_unicos_impactados": 2
+        "conteudo_id": "704",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 42.0,
+        "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "376",
+        "conteudo_id": "755",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "131",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 25.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "737",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 8.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "605",
         "total_interacoes": 1,
         "tempo_total_minutos": 1.0,
         "usuarios_unicos_impactados": 1
@@ -3252,213 +462,153 @@
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "98",
+        "conteudo_id": "1",
         "total_interacoes": 1,
-        "tempo_total_minutos": 2.0,
+        "tempo_total_minutos": 2376.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "64",
+        "conteudo_id": "722",
         "total_interacoes": 1,
-        "tempo_total_minutos": 9.0,
+        "tempo_total_minutos": 8.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "150",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 511.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "655",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 114.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "242",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 51.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "943",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 33.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "967",
+        "conteudo_id": "890",
         "total_interacoes": 1,
         "tempo_total_minutos": 23.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "478",
+        "conteudo_id": "917",
         "total_interacoes": 1,
-        "tempo_total_minutos": 62.0,
+        "tempo_total_minutos": 25.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "89",
+        "conteudo_id": "869",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 7.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "311",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 860.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "278",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 10.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "425",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 27.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "593",
         "total_interacoes": 1,
         "tempo_total_minutos": 19.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "37",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 26.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "491",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 49.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "501",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 33.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "218",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 23.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "209",
+        "conteudo_id": "641",
         "total_interacoes": 2,
-        "tempo_total_minutos": 15.0,
+        "tempo_total_minutos": 737.0,
         "usuarios_unicos_impactados": 2
     },
     {
-        "conteudo_id": "193",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 52.0,
-        "usuarios_unicos_impactados": 3
+        "conteudo_id": "689",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 104.0,
+        "usuarios_unicos_impactados": 2
     },
     {
-        "conteudo_id": "877",
+        "conteudo_id": "788",
         "total_interacoes": 1,
-        "tempo_total_minutos": 4.0,
+        "tempo_total_minutos": 3.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "902",
+        "conteudo_id": "935",
+        "total_interacoes": 3,
+        "tempo_total_minutos": 81.0,
+        "usuarios_unicos_impactados": 3
+    },
+    {
+        "conteudo_id": "179",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 2330.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "395",
         "total_interacoes": 1,
         "tempo_total_minutos": 2.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "823",
+        "conteudo_id": "164",
+        "total_interacoes": 3,
+        "tempo_total_minutos": 93.0,
+        "usuarios_unicos_impactados": 3
+    },
+    {
+        "conteudo_id": "209",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 7.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "524",
         "total_interacoes": 2,
+        "tempo_total_minutos": 69.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "380",
+        "total_interacoes": 1,
         "tempo_total_minutos": 11.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "612",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 73.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "59",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 38.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "134",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 39.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "396",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 29.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "433",
+        "conteudo_id": "245",
         "total_interacoes": 1,
-        "tempo_total_minutos": 46.0,
+        "tempo_total_minutos": 10.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "818",
+        "conteudo_id": "362",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "921",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "52",
         "total_interacoes": 2,
-        "tempo_total_minutos": 45.0,
+        "tempo_total_minutos": 138.0,
         "usuarios_unicos_impactados": 2
     },
     {
-        "conteudo_id": "979",
+        "conteudo_id": "594",
         "total_interacoes": 1,
         "tempo_total_minutos": 4.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "77",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 79.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "78",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 90.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "611",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 13.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "124",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 89.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "900",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 2366.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "974",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 55.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "119",
+        "conteudo_id": "774",
         "total_interacoes": 1,
         "tempo_total_minutos": 23.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "102",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 435.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "201",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 73.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "918",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 418.0,
         "usuarios_unicos_impactados": 1
     },
     {
@@ -3468,88 +618,118 @@
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "130",
+        "conteudo_id": "282",
         "total_interacoes": 1,
-        "tempo_total_minutos": 146.0,
+        "tempo_total_minutos": 57.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "690",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 14.0,
-        "usuarios_unicos_impactados": 3
+        "conteudo_id": "309",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 48.0,
+        "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "910",
+        "conteudo_id": "606",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 3.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "150",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 511.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "888",
         "total_interacoes": 2,
-        "tempo_total_minutos": 37.0,
+        "tempo_total_minutos": 8.0,
         "usuarios_unicos_impactados": 2
     },
     {
-        "conteudo_id": "84",
+        "conteudo_id": "756",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 7.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "408",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 92.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "525",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 79.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "891",
         "total_interacoes": 2,
-        "tempo_total_minutos": 106.0,
+        "tempo_total_minutos": 10.0,
         "usuarios_unicos_impactados": 2
     },
     {
-        "conteudo_id": "476",
+        "conteudo_id": "558",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 10.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "840",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 27.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "837",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 50.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "918",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 418.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "624",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 1612.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "657",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 2033.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "147",
         "total_interacoes": 1,
         "tempo_total_minutos": 1.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "923",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 19.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "121",
+        "conteudo_id": "114",
         "total_interacoes": 1,
-        "tempo_total_minutos": 8.0,
+        "tempo_total_minutos": 4.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "186",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 22.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "141",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 71.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "445",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 1041.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "593",
+        "conteudo_id": "396",
         "total_interacoes": 1,
-        "tempo_total_minutos": 19.0,
+        "tempo_total_minutos": 2.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "74",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 61.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "562",
+        "conteudo_id": "543",
         "total_interacoes": 2,
-        "tempo_total_minutos": 11.0,
+        "tempo_total_minutos": 74.0,
         "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "400",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 68.0,
-        "usuarios_unicos_impactados": 3
     },
     {
         "conteudo_id": "444",
@@ -3558,183 +738,15 @@
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "212",
+        "conteudo_id": "411",
         "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
+        "tempo_total_minutos": 27.0,
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "165",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 40.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "448",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 176.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "730",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 60.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "265",
-        "total_interacoes": 4,
-        "tempo_total_minutos": 106.0,
-        "usuarios_unicos_impactados": 4
-    },
-    {
-        "conteudo_id": "438",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 180.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "4",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "248",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 20.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "262",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1047.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "625",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 62.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "384",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 2347.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "142",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 19.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "270",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 59.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "198",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 421.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "215",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 38.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "621",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 6.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "125",
-        "total_interacoes": 3,
-        "tempo_total_minutos": 45.0,
-        "usuarios_unicos_impactados": 3
-    },
-    {
-        "conteudo_id": "483",
+        "conteudo_id": "246",
         "total_interacoes": 1,
         "tempo_total_minutos": 10.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "328",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 3.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "843",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 32.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "253",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 3.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "48",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 4.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "525",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 120.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "35",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 14.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "361",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "729",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 64.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "1000",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "566",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 72.0,
-        "usuarios_unicos_impactados": 2
-    },
-    {
-        "conteudo_id": "131",
-        "total_interacoes": 2,
-        "tempo_total_minutos": 60.0,
-        "usuarios_unicos_impactados": 1
-    },
-    {
-        "conteudo_id": "777",
-        "total_interacoes": 1,
-        "tempo_total_minutos": 1.0,
         "usuarios_unicos_impactados": 1
     },
     {
@@ -3744,9 +756,1605 @@
         "usuarios_unicos_impactados": 1
     },
     {
-        "conteudo_id": "146",
+        "conteudo_id": "231",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 4.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "724",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 22.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "409",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 4.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "562",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 9.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "892",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 70.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "430",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 2201.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "889",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 69.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "364",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 11.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "760",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 5.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "71",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 9.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "445",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 637.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "838",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 367.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "265",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 13.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "184",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 7.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "874",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 282.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "625",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 62.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "823",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 3.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "298",
+        "total_interacoes": 3,
+        "tempo_total_minutos": 77.0,
+        "usuarios_unicos_impactados": 3
+    },
+    {
+        "conteudo_id": "610",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 56.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "229",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 4.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "379",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 514.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "478",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 62.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "904",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 9.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "412",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 33.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "706",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 430.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "658",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 13.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "577",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 864.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "151",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 458.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "166",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 9.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "53",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 10.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "694",
+        "total_interacoes": 3,
+        "tempo_total_minutos": 955.0,
+        "usuarios_unicos_impactados": 3
+    },
+    {
+        "conteudo_id": "313",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 127.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "793",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 35.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "90",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 18.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "644",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 45.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "677",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 13.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "72",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 27.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "563",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 25.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "185",
         "total_interacoes": 2,
         "tempo_total_minutos": 24.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "116",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 23.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "662",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 5.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "170",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 628.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "596",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 47.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "200",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 51.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "725",
+        "total_interacoes": 3,
+        "tempo_total_minutos": 56.0,
+        "usuarios_unicos_impactados": 3
+    },
+    {
+        "conteudo_id": "482",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 83.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "36",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 50.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "398",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 82.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "248",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 20.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "857",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 38.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "383",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 700.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "707",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 16.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "578",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 5.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "87",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 51.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "860",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 87.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "413",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 85.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "941",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 10.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "611",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 13.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "581",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 856.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "842",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 275.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "69",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 349.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "512",
+        "total_interacoes": 3,
+        "tempo_total_minutos": 100.0,
+        "usuarios_unicos_impactados": 3
+    },
+    {
+        "conteudo_id": "545",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 60.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "509",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 79.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "251",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 443.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "299",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 43.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "350",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 4.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "680",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 463.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "120",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 14.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "5",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 3.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "366",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 369.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "432",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 34.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "267",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 306.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "315",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 68.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "19",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 11.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "627",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 60.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "630",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 4.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "252",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 356.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "843",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 32.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "612",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 32.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "300",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 27.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "399",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 5.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "708",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 8.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "993",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 15.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "249",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 10.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "939",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 9.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "711",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 682.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "579",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 18.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "102",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 435.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "429",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 21.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "40",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 16.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "465",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 12.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "55",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 31.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "37",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 26.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "681",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 871.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "91",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 15.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "825",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 41.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "780",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 215.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "384",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 2347.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "810",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 98.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "186",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 22.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "861",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 11.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "216",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 88.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "528",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 7.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "910",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 37.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "943",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 33.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "664",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "41",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 3.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "169",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 11.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "859",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 32.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "811",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 19.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "826",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 19.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "268",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 3.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "565",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 92.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "682",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "154",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 14.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "745",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 11.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "796",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 26.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "136",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 33.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "958",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 568.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "118",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 43.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "547",
+        "total_interacoes": 3,
+        "tempo_total_minutos": 10.0,
+        "usuarios_unicos_impactados": 3
+    },
+    {
+        "conteudo_id": "92",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 566.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "190",
+        "total_interacoes": 3,
+        "tempo_total_minutos": 675.0,
+        "usuarios_unicos_impactados": 3
+    },
+    {
+        "conteudo_id": "74",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 30.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "400",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 31.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "301",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 26.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "121",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 8.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "433",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 46.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "451",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 15.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "89",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 19.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "598",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 2.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "808",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 3.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "514",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 185.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "23",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 15.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "712",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 28.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "38",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 4.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "349",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 44.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "976",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 28.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "334",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 11.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "895",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 6.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "628",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 7.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "646",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 33.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "6",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 12.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "994",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 12.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "368",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 92.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "42",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 46.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "809",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 7.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "353",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 75.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "467",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "959",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 58.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "188",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 431.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "584",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "614",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 28.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "830",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 7.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "173",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 37.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "599",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 61.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "302",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 637.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "683",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 6.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "713",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 4.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "827",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 416.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "203",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 102.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "401",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 8.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "434",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "119",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 23.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "7",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 9.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "93",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 2205.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "845",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 3.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "317",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 44.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "650",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 145.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "782",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "452",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 42.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "995",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 14.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "566",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 15.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "881",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 18.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "402",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 812.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "468",
+        "total_interacoes": 3,
+        "tempo_total_minutos": 55.0,
+        "usuarios_unicos_impactados": 3
+    },
+    {
+        "conteudo_id": "567",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 5.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "94",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 13.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "156",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 150.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "747",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 258.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "765",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 432.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "43",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 47.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "336",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 2.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "684",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 3.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "420",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 32.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "138",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1190.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "192",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 717.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "633",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 642.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "204",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 26.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "945",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 908.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "387",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 145.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "534",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 4.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "600",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 36.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "828",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 33.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "729",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 31.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "615",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 20.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "570",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 12.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "8",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 675.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "666",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 363.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "76",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 686.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "141",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 48.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "585",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 9.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "813",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 82.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "174",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 51.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "240",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 19.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "732",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "105",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "273",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 2.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "699",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 13.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "634",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 6.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "292",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 15.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "193",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 40.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "832",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 36.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "601",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 11.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "274",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 4.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "520",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 10.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "829",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 19.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "157",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 16.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "667",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 76.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "77",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 61.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "670",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 2.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "175",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 11.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "946",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 67.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "784",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 597.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "553",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 18.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "124",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 89.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "883",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 517.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "106",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 4203.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "256",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 10.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "322",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 148.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "421",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 34.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "391",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 6.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "472",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 304.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "59",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 2.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "751",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 518.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "9",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 4.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "418",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 55.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "847",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 12.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "785",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 17.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "884",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 52.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "1000",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "473",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 462.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "81",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 390.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "158",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 31.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "518",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1992.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "206",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 186.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "422",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 1958.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "815",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 9.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "27",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 54.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "572",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 79.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "617",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 62.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "770",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 30.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "554",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 196.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "275",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 35.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "338",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 1271.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "374",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 11.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "752",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 55.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "45",
+        "total_interacoes": 3,
+        "tempo_total_minutos": 37.0,
+        "usuarios_unicos_impactados": 3
+    },
+    {
+        "conteudo_id": "239",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 66.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "260",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 23.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "125",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 12.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "602",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 1714.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "734",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 54.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "983",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 8.0,
+        "usuarios_unicos_impactados": 2
+    },
+    {
+        "conteudo_id": "78",
+        "total_interacoes": 1,
+        "tempo_total_minutos": 33.0,
+        "usuarios_unicos_impactados": 1
+    },
+    {
+        "conteudo_id": "356",
+        "total_interacoes": 2,
+        "tempo_total_minutos": 2116.0,
         "usuarios_unicos_impactados": 2
     }
 ]

@@ -16,7 +16,7 @@
   </info>
   <transform>
     <type>TextFileInput2</type>
-    <name>Text file input</name>
+    <name>Insercao Bronze iteracoes</name>
     <file_type>CSV</file_type>
     <compression>None</compression>
     <separator>;</separator>
@@ -235,7 +235,7 @@
     <copies>1</copies>
     <GUI>
       <xloc>80</xloc>
-      <yloc>144</yloc>
+      <yloc>160</yloc>
     </GUI>
     <partitioning>
       <method>none</method>
@@ -289,13 +289,13 @@
         </conditions>
       </condition>
     </compare>
-    <send_true_to>Text file output</send_true_to>
-    <send_false_to>Text file output 2</send_false_to>
+    <send_true_to>Saida Quarentena</send_true_to>
+    <send_false_to>Saida iteracoes Silver</send_false_to>
     <distribute>Y</distribute>
     <copies>1</copies>
     <GUI>
-      <xloc>224</xloc>
-      <yloc>144</yloc>
+      <xloc>480</xloc>
+      <yloc>176</yloc>
     </GUI>
     <partitioning>
       <method>none</method>
@@ -305,7 +305,7 @@
   </transform>
   <transform>
     <type>TextFileOutput</type>
-    <name>Text file output</name>
+    <name>Saida Quarentena</name>
     <compression>None</compression>
     <create_parent_folder>Y</create_parent_folder>
     <separator>;</separator>
@@ -337,12 +337,130 @@
       <fast_dump>N</fast_dump>
       <splitevery/>
     </file>
-    <fields/>
+    <fields>
+      <field>
+        <name>usuario_id</name>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <roundingType>half_even</roundingType>
+      </field>
+      <field>
+        <name>conteudo_id</name>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <roundingType>half_even</roundingType>
+      </field>
+      <field>
+        <name>tipo_interacao</name>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <roundingType>half_even</roundingType>
+      </field>
+      <field>
+        <name>data_hora</name>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <roundingType>half_even</roundingType>
+      </field>
+      <field>
+        <name>tempo_consumido</name>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <roundingType>half_even</roundingType>
+      </field>
+      <field>
+        <name>percentual_conclusao</name>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <roundingType>half_even</roundingType>
+      </field>
+      <field>
+        <name>avaliacao_atribuida</name>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <roundingType>half_even</roundingType>
+      </field>
+      <field>
+        <name>data_hora_ingestao</name>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <roundingType>half_even</roundingType>
+      </field>
+      <field>
+        <name>execucao_id</name>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <roundingType>half_even</roundingType>
+      </field>
+    </fields>
     <distribute>Y</distribute>
     <copies>1</copies>
     <GUI>
-      <xloc>368</xloc>
-      <yloc>144</yloc>
+      <xloc>592</xloc>
+      <yloc>208</yloc>
     </GUI>
     <partitioning>
       <method>none</method>
@@ -352,7 +470,7 @@
   </transform>
   <transform>
     <type>TextFileOutput</type>
-    <name>Text file output 2</name>
+    <name>Saida iteracoes Silver</name>
     <compression>None</compression>
     <create_parent_folder>Y</create_parent_folder>
     <separator>;</separator>
@@ -384,12 +502,222 @@
       <fast_dump>N</fast_dump>
       <splitevery/>
     </file>
-    <fields/>
+    <fields>
+      <field>
+        <name>usuario_id</name>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <roundingType>half_even</roundingType>
+      </field>
+      <field>
+        <name>conteudo_id</name>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <roundingType>half_even</roundingType>
+      </field>
+      <field>
+        <name>tipo_interacao</name>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <roundingType>half_even</roundingType>
+      </field>
+      <field>
+        <name>data_hora</name>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <roundingType>half_even</roundingType>
+      </field>
+      <field>
+        <name>tempo_consumido</name>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <roundingType>half_even</roundingType>
+      </field>
+      <field>
+        <name>percentual_conclusao</name>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <roundingType>half_even</roundingType>
+      </field>
+      <field>
+        <name>avaliacao_atribuida</name>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <roundingType>half_even</roundingType>
+      </field>
+      <field>
+        <name>data_hora_ingestao</name>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <roundingType>half_even</roundingType>
+      </field>
+      <field>
+        <name>execucao_id</name>
+        <type>String</type>
+        <format/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <roundingType>half_even</roundingType>
+      </field>
+    </fields>
     <distribute>Y</distribute>
     <copies>1</copies>
     <GUI>
-      <xloc>368</xloc>
-      <yloc>240</yloc>
+      <xloc>592</xloc>
+      <yloc>304</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <attributes/>
+  </transform>
+  <transform>
+    <type>IfNull</type>
+    <name>If null</name>
+    <fields>
+      <field>
+        <name>avaliacao_atribuida</name>
+        <value>0</value>
+        <mask/>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <valuetypes/>
+    <selectFields>Y</selectFields>
+    <selectValuesType>N</selectValuesType>
+    <replaceAllByValue>0</replaceAllByValue>
+    <replaceAllMask/>
+    <setEmptyStringAll>N</setEmptyStringAll>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>192</xloc>
+      <yloc>144</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <attributes/>
+  </transform>
+  <transform>
+    <type>StringOperations</type>
+    <name>String operations</name>
+    <fields>
+      <field>
+        <in_stream_name>tipo_interacao</in_stream_name>
+        <out_stream_name/>
+        <trim_type>both</trim_type>
+        <lower_upper>lower</lower_upper>
+        <init_cap>no</init_cap>
+        <mask_xml>none</mask_xml>
+        <digits>none</digits>
+        <remove_special_characters>none</remove_special_characters>
+        <padding_type>none</padding_type>
+        <pad_len/>
+        <pad_char/>
+      </field>
+    </fields>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>272</xloc>
+      <yloc>160</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <attributes/>
+  </transform>
+  <transform>
+    <type>Unique</type>
+    <name>Unique rows</name>
+    <count_rows>N</count_rows>
+    <count_field/>
+    <fields>
+      <field>
+        <name>usuario_id</name>
+        <case_insensitive>Y</case_insensitive>
+      </field>
+      <field>
+        <name>conteudo_id</name>
+        <case_insensitive>Y</case_insensitive>
+      </field>
+      <field>
+        <name>data_hora</name>
+        <case_insensitive>Y</case_insensitive>
+      </field>
+    </fields>
+    <reject_duplicate_row>N</reject_duplicate_row>
+    <error_description/>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>384</xloc>
+      <yloc>160</yloc>
     </GUI>
     <partitioning>
       <method>none</method>
@@ -399,18 +727,33 @@
   </transform>
   <order>
     <hop>
-      <from>Text file input</from>
+      <from>Filter rows</from>
+      <to>Saida Quarentena</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filter rows</from>
+      <to>Saida iteracoes Silver</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Insercao Bronze iteracoes</from>
+      <to>If null</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>If null</from>
+      <to>String operations</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>String operations</from>
+      <to>Unique rows</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Unique rows</from>
       <to>Filter rows</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Filter rows</from>
-      <to>Text file output</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Filter rows</from>
-      <to>Text file output 2</to>
       <enabled>Y</enabled>
     </hop>
   </order>

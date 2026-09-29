@@ -16,7 +16,7 @@
   </info>
   <transform>
     <type>CSVInput</type>
-    <name>CSV file input</name>
+    <name>Insercao catalogo</name>
     <filename>/home/yuri/fic_dev_IA/desafio_dados/dados/brutos/catalogo.csv</filename>
     <include_filename>N</include_filename>
     <rownum_field/>
@@ -362,7 +362,7 @@
   </transform>
   <transform>
     <type>JsonInput</type>
-    <name>JSON input</name>
+    <name>Insercao iteracoes</name>
     <include>N</include>
     <include_field/>
     <rownum>N</rownum>
@@ -682,9 +682,169 @@
     </partitioning>
     <attributes/>
   </transform>
+  <transform>
+    <type>TableOutput</type>
+    <name>Gravar catalogo bronze banco</name>
+    <connection>conn_plataforma_edu</connection>
+    <schema/>
+    <table>bronze_catalogo_auditoria</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <only_when_have_rows>N</only_when_have_rows>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <specify_fields>Y</specify_fields>
+    <auto_update_table_structure>N</auto_update_table_structure>
+    <always_drop_and_recreate>N</always_drop_and_recreate>
+    <add_columns>N</add_columns>
+    <drop_columns>N</drop_columns>
+    <change_column_types>N</change_column_types>
+    <fields>
+      <field>
+        <stream_name>conteudo_id</stream_name>
+        <column_name>conteudo_id</column_name>
+      </field>
+      <field>
+        <stream_name>titulo</stream_name>
+        <column_name>titulo</column_name>
+      </field>
+      <field>
+        <stream_name>tipo</stream_name>
+        <column_name>tipo</column_name>
+      </field>
+      <field>
+        <stream_name>categoria</stream_name>
+        <column_name>categoria</column_name>
+      </field>
+      <field>
+        <stream_name>nivel</stream_name>
+        <column_name>nivel</column_name>
+      </field>
+      <field>
+        <stream_name>carga_horaria_min</stream_name>
+        <column_name>carga_horaria_min</column_name>
+      </field>
+      <field>
+        <stream_name>data_publicacao</stream_name>
+        <column_name>data_publicacao</column_name>
+      </field>
+      <field>
+        <stream_name>descricao</stream_name>
+        <column_name>descricao</column_name>
+      </field>
+      <field>
+        <stream_name>autor</stream_name>
+        <column_name>autor</column_name>
+      </field>
+      <field>
+        <stream_name>data_hora_ingestao</stream_name>
+        <column_name>data_hora_ingestao</column_name>
+      </field>
+      <field>
+        <stream_name>execucao_id</stream_name>
+        <column_name>execucao_id</column_name>
+      </field>
+    </fields>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>480</xloc>
+      <yloc>320</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <attributes/>
+  </transform>
+  <transform>
+    <type>TableOutput</type>
+    <name>Gravar iteracoes bronze banco</name>
+    <connection>conn_plataforma_edu</connection>
+    <schema/>
+    <table>bronze_interacoes_auditoria</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <only_when_have_rows>N</only_when_have_rows>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <specify_fields>Y</specify_fields>
+    <auto_update_table_structure>N</auto_update_table_structure>
+    <always_drop_and_recreate>N</always_drop_and_recreate>
+    <add_columns>N</add_columns>
+    <drop_columns>N</drop_columns>
+    <change_column_types>N</change_column_types>
+    <fields>
+      <field>
+        <stream_name>usuario_id</stream_name>
+        <column_name>usuario_id</column_name>
+      </field>
+      <field>
+        <stream_name>conteudo_id</stream_name>
+        <column_name>conteudo_id</column_name>
+      </field>
+      <field>
+        <stream_name>tipo_interacao</stream_name>
+        <column_name>tipo_interacao</column_name>
+      </field>
+      <field>
+        <stream_name>data_hora</stream_name>
+        <column_name>data_hora</column_name>
+      </field>
+      <field>
+        <stream_name>tempo_consumido</stream_name>
+        <column_name>tempo_consumido</column_name>
+      </field>
+      <field>
+        <stream_name>percentual_conclusao</stream_name>
+        <column_name>percentual_conclusao</column_name>
+      </field>
+      <field>
+        <stream_name>avaliacao_atribuida</stream_name>
+        <column_name>avaliacao_atribuida</column_name>
+      </field>
+      <field>
+        <stream_name>data_hora_ingestao</stream_name>
+        <column_name>data_hora_ingestao</column_name>
+      </field>
+      <field>
+        <stream_name>execucao_id</stream_name>
+        <column_name>execucao_id</column_name>
+      </field>
+    </fields>
+    <distribute>Y</distribute>
+    <copies>1</copies>
+    <GUI>
+      <xloc>464</xloc>
+      <yloc>544</yloc>
+    </GUI>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <attributes/>
+  </transform>
   <order>
     <hop>
-      <from>CSV file input</from>
+      <from>Insercao catalogo</from>
       <to>Get system info</to>
       <enabled>Y</enabled>
     </hop>
@@ -694,13 +854,23 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>JSON input</from>
+      <from>Insercao iteracoes</from>
       <to>Get system info 2</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Get system info 2</from>
       <to>Text file output 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get system info</from>
+      <to>Gravar catalogo bronze banco</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Get system info 2</from>
+      <to>Gravar iteracoes bronze banco</to>
       <enabled>Y</enabled>
     </hop>
   </order>
